@@ -1,0 +1,1070 @@
+[0.980][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.982][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.982][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.985][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir47852_7373\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12013 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir47852_29703" data:,
+[1.846][INFO]: resolved localhost to ["127.0.0.1"]
+[1.856][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)",
+      "userDataDir": "C:\\Users\\DEEPAK~1.VER\\AppData\\Local\\Temp\\scoped_dir47852_29703"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.870][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1.870][INFO]: RESPONSE SetTimeout
+[1.877][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[1.877][INFO]: Waiting for pending navigations...
+[1.883][INFO]: Done waiting for pending navigations. Status: ok
+[8.969][INFO]: Waiting for pending navigations...
+[20.285][INFO]: Done waiting for pending navigations. Status: ok
+[20.285][INFO]: RESPONSE Navigate
+[25.308][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[25.310][INFO]: Waiting for pending navigations...
+[29.936][INFO]: Done waiting for pending navigations. Status: ok
+[29.956][INFO]: Waiting for pending navigations...
+[29.956][INFO]: Done waiting for pending navigations. Status: ok
+[29.956][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[29.962][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[29.962][INFO]: Waiting for pending navigations...
+[29.963][INFO]: Done waiting for pending navigations. Status: ok
+[29.973][INFO]: Waiting for pending navigations...
+[29.974][INFO]: Done waiting for pending navigations. Status: ok
+[29.974][INFO]: RESPONSE IsElementDisplayed false
+[30.481][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[30.481][INFO]: Waiting for pending navigations...
+[30.483][INFO]: Done waiting for pending navigations. Status: ok
+[30.499][INFO]: Waiting for pending navigations...
+[30.500][INFO]: Done waiting for pending navigations. Status: ok
+[30.500][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[30.506][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[30.506][INFO]: Waiting for pending navigations...
+[30.507][INFO]: Done waiting for pending navigations. Status: ok
+[30.516][INFO]: Waiting for pending navigations...
+[30.517][INFO]: Done waiting for pending navigations. Status: ok
+[30.517][INFO]: RESPONSE IsElementDisplayed false
+[31.025][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[31.025][INFO]: Waiting for pending navigations...
+[31.029][INFO]: Done waiting for pending navigations. Status: ok
+[31.042][INFO]: Waiting for pending navigations...
+[31.048][INFO]: Done waiting for pending navigations. Status: ok
+[31.048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[31.054][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[31.055][INFO]: Waiting for pending navigations...
+[31.056][INFO]: Done waiting for pending navigations. Status: ok
+[31.063][INFO]: Waiting for pending navigations...
+[31.064][INFO]: Done waiting for pending navigations. Status: ok
+[31.064][INFO]: RESPONSE IsElementDisplayed false
+[31.570][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[31.570][INFO]: Waiting for pending navigations...
+[31.572][INFO]: Done waiting for pending navigations. Status: ok
+[31.577][INFO]: Waiting for pending navigations...
+[31.577][INFO]: Done waiting for pending navigations. Status: ok
+[31.577][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[31.579][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[31.579][INFO]: Waiting for pending navigations...
+[31.580][INFO]: Done waiting for pending navigations. Status: ok
+[31.583][INFO]: Waiting for pending navigations...
+[31.583][INFO]: Done waiting for pending navigations. Status: ok
+[31.583][INFO]: RESPONSE IsElementDisplayed false
+[32.090][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[32.090][INFO]: Waiting for pending navigations...
+[32.093][INFO]: Done waiting for pending navigations. Status: ok
+[32.113][INFO]: Waiting for pending navigations...
+[32.113][INFO]: Done waiting for pending navigations. Status: ok
+[32.113][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[32.116][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[32.116][INFO]: Waiting for pending navigations...
+[32.116][INFO]: Done waiting for pending navigations. Status: ok
+[32.120][INFO]: Waiting for pending navigations...
+[32.120][INFO]: Done waiting for pending navigations. Status: ok
+[32.120][INFO]: RESPONSE IsElementDisplayed false
+[32.627][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[32.627][INFO]: Waiting for pending navigations...
+[32.629][INFO]: Done waiting for pending navigations. Status: ok
+[32.647][INFO]: Waiting for pending navigations...
+[32.649][INFO]: Done waiting for pending navigations. Status: ok
+[32.649][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[32.653][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[32.653][INFO]: Waiting for pending navigations...
+[32.654][INFO]: Done waiting for pending navigations. Status: ok
+[32.657][INFO]: Waiting for pending navigations...
+[32.658][INFO]: Done waiting for pending navigations. Status: ok
+[32.658][INFO]: RESPONSE IsElementDisplayed false
+[33.163][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[33.163][INFO]: Waiting for pending navigations...
+[33.163][INFO]: Done waiting for pending navigations. Status: ok
+[33.168][INFO]: Waiting for pending navigations...
+[33.169][INFO]: Done waiting for pending navigations. Status: ok
+[33.169][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[33.171][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[33.171][INFO]: Waiting for pending navigations...
+[33.172][INFO]: Done waiting for pending navigations. Status: ok
+[33.175][INFO]: Waiting for pending navigations...
+[33.175][INFO]: Done waiting for pending navigations. Status: ok
+[33.176][INFO]: RESPONSE IsElementDisplayed false
+[33.685][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[33.685][INFO]: Waiting for pending navigations...
+[33.688][INFO]: Done waiting for pending navigations. Status: ok
+[33.703][INFO]: Waiting for pending navigations...
+[33.704][INFO]: Done waiting for pending navigations. Status: ok
+[33.704][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[33.706][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[33.706][INFO]: Waiting for pending navigations...
+[33.707][INFO]: Done waiting for pending navigations. Status: ok
+[33.710][INFO]: Waiting for pending navigations...
+[33.711][INFO]: Done waiting for pending navigations. Status: ok
+[33.711][INFO]: RESPONSE IsElementDisplayed false
+[34.217][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[34.218][INFO]: Waiting for pending navigations...
+[34.220][INFO]: Done waiting for pending navigations. Status: ok
+[34.238][INFO]: Waiting for pending navigations...
+[34.240][INFO]: Done waiting for pending navigations. Status: ok
+[34.240][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[34.244][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[34.244][INFO]: Waiting for pending navigations...
+[34.245][INFO]: Done waiting for pending navigations. Status: ok
+[34.248][INFO]: Waiting for pending navigations...
+[34.248][INFO]: Done waiting for pending navigations. Status: ok
+[34.248][INFO]: RESPONSE IsElementDisplayed false
+[34.755][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[34.755][INFO]: Waiting for pending navigations...
+[34.758][INFO]: Done waiting for pending navigations. Status: ok
+[34.777][INFO]: Waiting for pending navigations...
+[34.784][INFO]: Done waiting for pending navigations. Status: ok
+[34.784][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[34.787][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[34.787][INFO]: Waiting for pending navigations...
+[34.788][INFO]: Done waiting for pending navigations. Status: ok
+[34.792][INFO]: Waiting for pending navigations...
+[34.792][INFO]: Done waiting for pending navigations. Status: ok
+[34.792][INFO]: RESPONSE IsElementDisplayed false
+[35.295][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[35.295][INFO]: Waiting for pending navigations...
+[35.296][INFO]: Done waiting for pending navigations. Status: ok
+[35.300][INFO]: Waiting for pending navigations...
+[35.301][INFO]: Done waiting for pending navigations. Status: ok
+[35.301][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[35.303][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[35.303][INFO]: Waiting for pending navigations...
+[35.304][INFO]: Done waiting for pending navigations. Status: ok
+[35.307][INFO]: Waiting for pending navigations...
+[35.307][INFO]: Done waiting for pending navigations. Status: ok
+[35.307][INFO]: RESPONSE IsElementDisplayed false
+[35.813][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[35.813][INFO]: Waiting for pending navigations...
+[35.815][INFO]: Done waiting for pending navigations. Status: ok
+[35.832][INFO]: Waiting for pending navigations...
+[35.834][INFO]: Done waiting for pending navigations. Status: ok
+[35.834][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[35.840][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[35.841][INFO]: Waiting for pending navigations...
+[35.842][INFO]: Done waiting for pending navigations. Status: ok
+[35.853][INFO]: Waiting for pending navigations...
+[35.855][INFO]: Done waiting for pending navigations. Status: ok
+[35.855][INFO]: RESPONSE IsElementDisplayed false
+[36.359][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[36.359][INFO]: Waiting for pending navigations...
+[36.360][INFO]: Done waiting for pending navigations. Status: ok
+[36.364][INFO]: Waiting for pending navigations...
+[36.365][INFO]: Done waiting for pending navigations. Status: ok
+[36.365][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[36.367][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[36.367][INFO]: Waiting for pending navigations...
+[36.368][INFO]: Done waiting for pending navigations. Status: ok
+[36.371][INFO]: Waiting for pending navigations...
+[36.371][INFO]: Done waiting for pending navigations. Status: ok
+[36.371][INFO]: RESPONSE IsElementDisplayed false
+[36.878][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[36.878][INFO]: Waiting for pending navigations...
+[36.880][INFO]: Done waiting for pending navigations. Status: ok
+[36.900][INFO]: Waiting for pending navigations...
+[36.904][INFO]: Done waiting for pending navigations. Status: ok
+[36.904][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[36.911][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[36.912][INFO]: Waiting for pending navigations...
+[36.913][INFO]: Done waiting for pending navigations. Status: ok
+[36.916][INFO]: Waiting for pending navigations...
+[36.917][INFO]: Done waiting for pending navigations. Status: ok
+[36.917][INFO]: RESPONSE IsElementDisplayed false
+[37.423][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[37.423][INFO]: Waiting for pending navigations...
+[37.425][INFO]: Done waiting for pending navigations. Status: ok
+[37.445][INFO]: Waiting for pending navigations...
+[37.447][INFO]: Done waiting for pending navigations. Status: ok
+[37.447][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[37.453][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[37.453][INFO]: Waiting for pending navigations...
+[37.454][INFO]: Done waiting for pending navigations. Status: ok
+[37.457][INFO]: Waiting for pending navigations...
+[37.458][INFO]: Done waiting for pending navigations. Status: ok
+[37.458][INFO]: RESPONSE IsElementDisplayed false
+[37.963][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[37.964][INFO]: Waiting for pending navigations...
+[37.966][INFO]: Done waiting for pending navigations. Status: ok
+[37.984][INFO]: Waiting for pending navigations...
+[37.986][INFO]: Done waiting for pending navigations. Status: ok
+[37.986][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[37.992][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[37.992][INFO]: Waiting for pending navigations...
+[37.992][INFO]: Done waiting for pending navigations. Status: ok
+[37.996][INFO]: Waiting for pending navigations...
+[37.996][INFO]: Done waiting for pending navigations. Status: ok
+[37.996][INFO]: RESPONSE IsElementDisplayed false
+[38.502][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[38.502][INFO]: Waiting for pending navigations...
+[38.505][INFO]: Done waiting for pending navigations. Status: ok
+[38.521][INFO]: Waiting for pending navigations...
+[38.523][INFO]: Done waiting for pending navigations. Status: ok
+[38.523][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[38.531][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[38.531][INFO]: Waiting for pending navigations...
+[38.532][INFO]: Done waiting for pending navigations. Status: ok
+[38.536][INFO]: Waiting for pending navigations...
+[38.536][INFO]: Done waiting for pending navigations. Status: ok
+[38.536][INFO]: RESPONSE IsElementDisplayed false
+[39.042][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[39.042][INFO]: Waiting for pending navigations...
+[39.045][INFO]: Done waiting for pending navigations. Status: ok
+[39.062][INFO]: Waiting for pending navigations...
+[39.064][INFO]: Done waiting for pending navigations. Status: ok
+[39.064][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[39.071][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[39.071][INFO]: Waiting for pending navigations...
+[39.072][INFO]: Done waiting for pending navigations. Status: ok
+[39.076][INFO]: Waiting for pending navigations...
+[39.076][INFO]: Done waiting for pending navigations. Status: ok
+[39.076][INFO]: RESPONSE IsElementDisplayed false
+[39.578][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[39.578][INFO]: Waiting for pending navigations...
+[39.579][INFO]: Done waiting for pending navigations. Status: ok
+[39.583][INFO]: Waiting for pending navigations...
+[39.584][INFO]: Done waiting for pending navigations. Status: ok
+[39.584][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[39.586][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[39.586][INFO]: Waiting for pending navigations...
+[39.587][INFO]: Done waiting for pending navigations. Status: ok
+[39.590][INFO]: Waiting for pending navigations...
+[39.590][INFO]: Done waiting for pending navigations. Status: ok
+[39.590][INFO]: RESPONSE IsElementDisplayed false
+[40.096][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[40.096][INFO]: Waiting for pending navigations...
+[40.098][INFO]: Done waiting for pending navigations. Status: ok
+[40.127][INFO]: Waiting for pending navigations...
+[40.127][INFO]: Done waiting for pending navigations. Status: ok
+[40.127][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[40.130][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[40.130][INFO]: Waiting for pending navigations...
+[40.130][INFO]: Done waiting for pending navigations. Status: ok
+[40.134][INFO]: Waiting for pending navigations...
+[40.134][INFO]: Done waiting for pending navigations. Status: ok
+[40.134][INFO]: RESPONSE IsElementDisplayed false
+[40.640][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[40.640][INFO]: Waiting for pending navigations...
+[40.641][INFO]: Done waiting for pending navigations. Status: ok
+[40.660][INFO]: Waiting for pending navigations...
+[40.662][INFO]: Done waiting for pending navigations. Status: ok
+[40.662][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[40.664][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[40.664][INFO]: Waiting for pending navigations...
+[40.665][INFO]: Done waiting for pending navigations. Status: ok
+[40.668][INFO]: Waiting for pending navigations...
+[40.668][INFO]: Done waiting for pending navigations. Status: ok
+[40.668][INFO]: RESPONSE IsElementDisplayed false
+[41.173][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[41.173][INFO]: Waiting for pending navigations...
+[41.176][INFO]: Done waiting for pending navigations. Status: ok
+[41.194][INFO]: Waiting for pending navigations...
+[41.197][INFO]: Done waiting for pending navigations. Status: ok
+[41.197][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[41.202][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[41.202][INFO]: Waiting for pending navigations...
+[41.203][INFO]: Done waiting for pending navigations. Status: ok
+[41.206][INFO]: Waiting for pending navigations...
+[41.207][INFO]: Done waiting for pending navigations. Status: ok
+[41.207][INFO]: RESPONSE IsElementDisplayed false
+[41.713][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[41.713][INFO]: Waiting for pending navigations...
+[41.715][INFO]: Done waiting for pending navigations. Status: ok
+[41.735][INFO]: Waiting for pending navigations...
+[41.737][INFO]: Done waiting for pending navigations. Status: ok
+[41.737][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[41.743][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[41.743][INFO]: Waiting for pending navigations...
+[41.744][INFO]: Done waiting for pending navigations. Status: ok
+[41.747][INFO]: Waiting for pending navigations...
+[41.748][INFO]: Done waiting for pending navigations. Status: ok
+[41.748][INFO]: RESPONSE IsElementDisplayed false
+[42.254][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[42.254][INFO]: Waiting for pending navigations...
+[42.256][INFO]: Done waiting for pending navigations. Status: ok
+[42.277][INFO]: Waiting for pending navigations...
+[42.280][INFO]: Done waiting for pending navigations. Status: ok
+[42.280][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[42.283][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[42.283][INFO]: Waiting for pending navigations...
+[42.284][INFO]: Done waiting for pending navigations. Status: ok
+[42.286][INFO]: Waiting for pending navigations...
+[42.287][INFO]: Done waiting for pending navigations. Status: ok
+[42.287][INFO]: RESPONSE IsElementDisplayed false
+[42.793][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[42.793][INFO]: Waiting for pending navigations...
+[42.796][INFO]: Done waiting for pending navigations. Status: ok
+[42.815][INFO]: Waiting for pending navigations...
+[42.817][INFO]: Done waiting for pending navigations. Status: ok
+[42.817][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[42.823][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[42.823][INFO]: Waiting for pending navigations...
+[42.824][INFO]: Done waiting for pending navigations. Status: ok
+[42.827][INFO]: Waiting for pending navigations...
+[42.828][INFO]: Done waiting for pending navigations. Status: ok
+[42.828][INFO]: RESPONSE IsElementDisplayed false
+[43.335][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[43.335][INFO]: Waiting for pending navigations...
+[43.337][INFO]: Done waiting for pending navigations. Status: ok
+[43.354][INFO]: Waiting for pending navigations...
+[43.356][INFO]: Done waiting for pending navigations. Status: ok
+[43.356][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[43.362][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[43.362][INFO]: Waiting for pending navigations...
+[43.363][INFO]: Done waiting for pending navigations. Status: ok
+[43.366][INFO]: Waiting for pending navigations...
+[43.366][INFO]: Done waiting for pending navigations. Status: ok
+[43.366][INFO]: RESPONSE IsElementDisplayed false
+[43.870][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[43.870][INFO]: Waiting for pending navigations...
+[43.872][INFO]: Done waiting for pending navigations. Status: ok
+[43.887][INFO]: Waiting for pending navigations...
+[43.889][INFO]: Done waiting for pending navigations. Status: ok
+[43.889][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[43.894][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[43.895][INFO]: Waiting for pending navigations...
+[43.897][INFO]: Done waiting for pending navigations. Status: ok
+[43.904][INFO]: Waiting for pending navigations...
+[43.904][INFO]: Done waiting for pending navigations. Status: ok
+[43.904][INFO]: RESPONSE IsElementDisplayed false
+[44.409][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[44.409][INFO]: Waiting for pending navigations...
+[44.412][INFO]: Done waiting for pending navigations. Status: ok
+[44.429][INFO]: Waiting for pending navigations...
+[44.437][INFO]: Done waiting for pending navigations. Status: ok
+[44.437][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[44.442][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[44.442][INFO]: Waiting for pending navigations...
+[44.443][INFO]: Done waiting for pending navigations. Status: ok
+[44.446][INFO]: Waiting for pending navigations...
+[44.446][INFO]: Done waiting for pending navigations. Status: ok
+[44.446][INFO]: RESPONSE IsElementDisplayed false
+[44.948][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[44.948][INFO]: Waiting for pending navigations...
+[44.952][INFO]: Done waiting for pending navigations. Status: ok
+[44.956][INFO]: Waiting for pending navigations...
+[44.957][INFO]: Done waiting for pending navigations. Status: ok
+[44.957][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[44.960][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[44.960][INFO]: Waiting for pending navigations...
+[44.960][INFO]: Done waiting for pending navigations. Status: ok
+[44.964][INFO]: Waiting for pending navigations...
+[44.964][INFO]: Done waiting for pending navigations. Status: ok
+[44.964][INFO]: RESPONSE IsElementDisplayed false
+[45.466][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[45.466][INFO]: Waiting for pending navigations...
+[45.467][INFO]: Done waiting for pending navigations. Status: ok
+[45.471][INFO]: Waiting for pending navigations...
+[45.472][INFO]: Done waiting for pending navigations. Status: ok
+[45.472][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[45.474][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[45.474][INFO]: Waiting for pending navigations...
+[45.475][INFO]: Done waiting for pending navigations. Status: ok
+[45.478][INFO]: Waiting for pending navigations...
+[45.479][INFO]: Done waiting for pending navigations. Status: ok
+[45.479][INFO]: RESPONSE IsElementDisplayed false
+[45.981][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[45.981][INFO]: Waiting for pending navigations...
+[45.982][INFO]: Done waiting for pending navigations. Status: ok
+[45.987][INFO]: Waiting for pending navigations...
+[45.987][INFO]: Done waiting for pending navigations. Status: ok
+[45.987][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[45.990][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[45.990][INFO]: Waiting for pending navigations...
+[45.990][INFO]: Done waiting for pending navigations. Status: ok
+[45.994][INFO]: Waiting for pending navigations...
+[45.994][INFO]: Done waiting for pending navigations. Status: ok
+[45.994][INFO]: RESPONSE IsElementDisplayed false
+[46.500][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[46.500][INFO]: Waiting for pending navigations...
+[46.502][INFO]: Done waiting for pending navigations. Status: ok
+[46.519][INFO]: Waiting for pending navigations...
+[46.521][INFO]: Done waiting for pending navigations. Status: ok
+[46.521][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[46.528][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[46.528][INFO]: Waiting for pending navigations...
+[46.530][INFO]: Done waiting for pending navigations. Status: ok
+[46.542][INFO]: Waiting for pending navigations...
+[46.543][INFO]: Done waiting for pending navigations. Status: ok
+[46.543][INFO]: RESPONSE IsElementDisplayed false
+[47.048][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[47.048][INFO]: Waiting for pending navigations...
+[47.050][INFO]: Done waiting for pending navigations. Status: ok
+[47.068][INFO]: Waiting for pending navigations...
+[47.070][INFO]: Done waiting for pending navigations. Status: ok
+[47.070][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[47.077][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[47.077][INFO]: Waiting for pending navigations...
+[47.080][INFO]: Done waiting for pending navigations. Status: ok
+[47.085][INFO]: Waiting for pending navigations...
+[47.085][INFO]: Done waiting for pending navigations. Status: ok
+[47.086][INFO]: RESPONSE IsElementDisplayed false
+[47.591][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[47.591][INFO]: Waiting for pending navigations...
+[47.593][INFO]: Done waiting for pending navigations. Status: ok
+[47.611][INFO]: Waiting for pending navigations...
+[47.614][INFO]: Done waiting for pending navigations. Status: ok
+[47.614][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[47.620][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[47.620][INFO]: Waiting for pending navigations...
+[47.622][INFO]: Done waiting for pending navigations. Status: ok
+[47.626][INFO]: Waiting for pending navigations...
+[47.627][INFO]: Done waiting for pending navigations. Status: ok
+[47.627][INFO]: RESPONSE IsElementDisplayed false
+[48.132][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.132][INFO]: Waiting for pending navigations...
+[48.135][INFO]: Done waiting for pending navigations. Status: ok
+[48.152][INFO]: Waiting for pending navigations...
+[48.154][INFO]: Done waiting for pending navigations. Status: ok
+[48.154][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[48.161][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[48.161][INFO]: Waiting for pending navigations...
+[48.162][INFO]: Done waiting for pending navigations. Status: ok
+[48.166][INFO]: Waiting for pending navigations...
+[48.166][INFO]: Done waiting for pending navigations. Status: ok
+[48.166][INFO]: RESPONSE IsElementDisplayed false
+[48.672][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.672][INFO]: Waiting for pending navigations...
+[48.674][INFO]: Done waiting for pending navigations. Status: ok
+[48.691][INFO]: Waiting for pending navigations...
+[48.693][INFO]: Done waiting for pending navigations. Status: ok
+[48.694][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[48.701][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[48.701][INFO]: Waiting for pending navigations...
+[48.702][INFO]: Done waiting for pending navigations. Status: ok
+[48.706][INFO]: Waiting for pending navigations...
+[48.707][INFO]: Done waiting for pending navigations. Status: ok
+[48.707][INFO]: RESPONSE IsElementDisplayed false
+[49.211][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[49.212][INFO]: Waiting for pending navigations...
+[49.212][INFO]: Done waiting for pending navigations. Status: ok
+[49.217][INFO]: Waiting for pending navigations...
+[49.218][INFO]: Done waiting for pending navigations. Status: ok
+[49.218][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[49.220][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[49.220][INFO]: Waiting for pending navigations...
+[49.220][INFO]: Done waiting for pending navigations. Status: ok
+[49.224][INFO]: Waiting for pending navigations...
+[49.224][INFO]: Done waiting for pending navigations. Status: ok
+[49.224][INFO]: RESPONSE IsElementDisplayed false
+[49.730][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[49.730][INFO]: Waiting for pending navigations...
+[49.732][INFO]: Done waiting for pending navigations. Status: ok
+[49.749][INFO]: Waiting for pending navigations...
+[49.753][INFO]: Done waiting for pending navigations. Status: ok
+[49.753][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[49.758][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[49.758][INFO]: Waiting for pending navigations...
+[49.759][INFO]: Done waiting for pending navigations. Status: ok
+[49.768][INFO]: Waiting for pending navigations...
+[49.770][INFO]: Done waiting for pending navigations. Status: ok
+[49.770][INFO]: RESPONSE IsElementDisplayed false
+[50.276][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[50.276][INFO]: Waiting for pending navigations...
+[50.278][INFO]: Done waiting for pending navigations. Status: ok
+[50.296][INFO]: Waiting for pending navigations...
+[50.298][INFO]: Done waiting for pending navigations. Status: ok
+[50.298][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[50.303][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[50.304][INFO]: Waiting for pending navigations...
+[50.305][INFO]: Done waiting for pending navigations. Status: ok
+[50.317][INFO]: Waiting for pending navigations...
+[50.319][INFO]: Done waiting for pending navigations. Status: ok
+[50.319][INFO]: RESPONSE IsElementDisplayed false
+[50.826][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[50.826][INFO]: Waiting for pending navigations...
+[50.828][INFO]: Done waiting for pending navigations. Status: ok
+[50.845][INFO]: Waiting for pending navigations...
+[50.847][INFO]: Done waiting for pending navigations. Status: ok
+[50.847][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[50.854][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[50.854][INFO]: Waiting for pending navigations...
+[50.856][INFO]: Done waiting for pending navigations. Status: ok
+[50.864][INFO]: Waiting for pending navigations...
+[50.865][INFO]: Done waiting for pending navigations. Status: ok
+[50.865][INFO]: RESPONSE IsElementDisplayed false
+[51.370][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[51.370][INFO]: Waiting for pending navigations...
+[51.372][INFO]: Done waiting for pending navigations. Status: ok
+[51.391][INFO]: Waiting for pending navigations...
+[51.396][INFO]: Done waiting for pending navigations. Status: ok
+[51.396][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[51.403][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[51.403][INFO]: Waiting for pending navigations...
+[51.404][INFO]: Done waiting for pending navigations. Status: ok
+[51.408][INFO]: Waiting for pending navigations...
+[51.409][INFO]: Done waiting for pending navigations. Status: ok
+[51.409][INFO]: RESPONSE IsElementDisplayed false
+[51.916][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[51.916][INFO]: Waiting for pending navigations...
+[51.918][INFO]: Done waiting for pending navigations. Status: ok
+[51.937][INFO]: Waiting for pending navigations...
+[51.939][INFO]: Done waiting for pending navigations. Status: ok
+[51.939][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[51.945][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[51.945][INFO]: Waiting for pending navigations...
+[51.947][INFO]: Done waiting for pending navigations. Status: ok
+[51.958][INFO]: Waiting for pending navigations...
+[51.960][INFO]: Done waiting for pending navigations. Status: ok
+[51.960][INFO]: RESPONSE IsElementDisplayed false
+[52.467][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[52.467][INFO]: Waiting for pending navigations...
+[52.469][INFO]: Done waiting for pending navigations. Status: ok
+[52.486][INFO]: Waiting for pending navigations...
+[52.488][INFO]: Done waiting for pending navigations. Status: ok
+[52.488][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[52.495][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[52.495][INFO]: Waiting for pending navigations...
+[52.497][INFO]: Done waiting for pending navigations. Status: ok
+[52.510][INFO]: Waiting for pending navigations...
+[52.512][INFO]: Done waiting for pending navigations. Status: ok
+[52.512][INFO]: RESPONSE IsElementDisplayed false
+[53.018][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[53.018][INFO]: Waiting for pending navigations...
+[53.020][INFO]: Done waiting for pending navigations. Status: ok
+[53.039][INFO]: Waiting for pending navigations...
+[53.041][INFO]: Done waiting for pending navigations. Status: ok
+[53.041][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[53.048][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[53.048][INFO]: Waiting for pending navigations...
+[53.050][INFO]: Done waiting for pending navigations. Status: ok
+[53.055][INFO]: Waiting for pending navigations...
+[53.056][INFO]: Done waiting for pending navigations. Status: ok
+[53.056][INFO]: RESPONSE IsElementDisplayed false
+[53.562][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[53.562][INFO]: Waiting for pending navigations...
+[53.564][INFO]: Done waiting for pending navigations. Status: ok
+[53.582][INFO]: Waiting for pending navigations...
+[53.584][INFO]: Done waiting for pending navigations. Status: ok
+[53.584][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[53.591][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[53.591][INFO]: Waiting for pending navigations...
+[53.593][INFO]: Done waiting for pending navigations. Status: ok
+[53.597][INFO]: Waiting for pending navigations...
+[53.597][INFO]: Done waiting for pending navigations. Status: ok
+[53.597][INFO]: RESPONSE IsElementDisplayed false
+[54.103][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[54.103][INFO]: Waiting for pending navigations...
+[54.105][INFO]: Done waiting for pending navigations. Status: ok
+[54.122][INFO]: Waiting for pending navigations...
+[54.124][INFO]: Done waiting for pending navigations. Status: ok
+[54.124][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[54.131][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[54.131][INFO]: Waiting for pending navigations...
+[54.133][INFO]: Done waiting for pending navigations. Status: ok
+[54.146][INFO]: Waiting for pending navigations...
+[54.148][INFO]: Done waiting for pending navigations. Status: ok
+[54.148][INFO]: RESPONSE IsElementDisplayed false
+[54.656][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[54.656][INFO]: Waiting for pending navigations...
+[54.659][INFO]: Done waiting for pending navigations. Status: ok
+[54.677][INFO]: Waiting for pending navigations...
+[54.679][INFO]: Done waiting for pending navigations. Status: ok
+[54.679][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[54.686][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[54.686][INFO]: Waiting for pending navigations...
+[54.688][INFO]: Done waiting for pending navigations. Status: ok
+[54.702][INFO]: Waiting for pending navigations...
+[54.702][INFO]: Done waiting for pending navigations. Status: ok
+[54.703][INFO]: RESPONSE IsElementDisplayed false
+[55.208][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[55.208][INFO]: Waiting for pending navigations...
+[55.210][INFO]: Done waiting for pending navigations. Status: ok
+[55.227][INFO]: Waiting for pending navigations...
+[55.229][INFO]: Done waiting for pending navigations. Status: ok
+[55.229][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[55.236][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[55.236][INFO]: Waiting for pending navigations...
+[55.238][INFO]: Done waiting for pending navigations. Status: ok
+[55.244][INFO]: Waiting for pending navigations...
+[55.245][INFO]: Done waiting for pending navigations. Status: ok
+[55.245][INFO]: RESPONSE IsElementDisplayed false
+[55.751][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[55.751][INFO]: Waiting for pending navigations...
+[55.753][INFO]: Done waiting for pending navigations. Status: ok
+[55.784][INFO]: Waiting for pending navigations...
+[55.785][INFO]: Done waiting for pending navigations. Status: ok
+[55.785][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.028842543341517146-1"
+}
+[55.787][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.028842543341517146-1"
+}
+[55.787][INFO]: Waiting for pending navigations...
+[55.788][INFO]: Done waiting for pending navigations. Status: ok
+[55.792][INFO]: Waiting for pending navigations...
+[55.792][INFO]: Done waiting for pending navigations. Status: ok
+[55.792][INFO]: RESPONSE IsElementDisplayed false
+[55.797][INFO]: COMMAND GetUrl {
+
+}
+[55.797][INFO]: Waiting for pending navigations...
+[55.798][INFO]: Done waiting for pending navigations. Status: ok
+[55.800][INFO]: Waiting for pending navigations...
+[55.800][INFO]: Done waiting for pending navigations. Status: ok
+[55.800][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[70.369][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[70.369][INFO]: resolved localhost to ["127.0.0.1"]
+[73.374][INFO]: RESPONSE Navigate chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[79.163][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[79.163][INFO]: resolved localhost to ["127.0.0.1"]
+[82.164][INFO]: RESPONSE Navigate chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[85.004][INFO]: COMMAND Quit {
+
+}
+[85.004][INFO]: RESPONSE Quit

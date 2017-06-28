@@ -1,0 +1,1629 @@
+[1.070][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1.071][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.072][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.075][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir69252_6143\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12318 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir69252_29705" data:,
+[1.650][INFO]: resolved localhost to ["127.0.0.1"]
+[1.699][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)",
+      "userDataDir": "C:\\Users\\DEEPAK~1.VER\\AppData\\Local\\Temp\\scoped_dir69252_29705"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.714][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1.714][INFO]: RESPONSE SetTimeout
+[1.720][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[1.720][INFO]: Waiting for pending navigations...
+[1.729][INFO]: Done waiting for pending navigations. Status: ok
+[9.746][INFO]: Waiting for pending navigations...
+[30.129][INFO]: Done waiting for pending navigations. Status: ok
+[30.130][INFO]: RESPONSE Navigate
+[35.146][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[35.148][INFO]: Waiting for pending navigations...
+[40.414][INFO]: Done waiting for pending navigations. Status: ok
+[40.475][INFO]: Waiting for pending navigations...
+[40.477][INFO]: Done waiting for pending navigations. Status: ok
+[40.477][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[40.982][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[40.982][INFO]: Waiting for pending navigations...
+[40.984][INFO]: Done waiting for pending navigations. Status: ok
+[41.040][INFO]: Waiting for pending navigations...
+[41.040][INFO]: Done waiting for pending navigations. Status: ok
+[41.040][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[41.547][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[41.547][INFO]: Waiting for pending navigations...
+[41.549][INFO]: Done waiting for pending navigations. Status: ok
+[41.596][INFO]: Waiting for pending navigations...
+[41.597][INFO]: Done waiting for pending navigations. Status: ok
+[41.597][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[42.105][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[42.105][INFO]: Waiting for pending navigations...
+[42.283][INFO]: Done waiting for pending navigations. Status: ok
+[42.316][INFO]: Waiting for pending navigations...
+[42.316][INFO]: Done waiting for pending navigations. Status: ok
+[42.316][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[42.823][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[42.823][INFO]: Waiting for pending navigations...
+[42.825][INFO]: Done waiting for pending navigations. Status: ok
+[42.880][INFO]: Waiting for pending navigations...
+[42.883][INFO]: Done waiting for pending navigations. Status: ok
+[42.883][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[43.392][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[43.392][INFO]: Waiting for pending navigations...
+[43.394][INFO]: Done waiting for pending navigations. Status: ok
+[43.449][INFO]: Waiting for pending navigations...
+[43.449][INFO]: Done waiting for pending navigations. Status: ok
+[43.449][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[43.955][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[43.955][INFO]: Waiting for pending navigations...
+[43.957][INFO]: Done waiting for pending navigations. Status: ok
+[44.014][INFO]: Waiting for pending navigations...
+[44.015][INFO]: Done waiting for pending navigations. Status: ok
+[44.015][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[44.521][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[44.521][INFO]: Waiting for pending navigations...
+[44.524][INFO]: Done waiting for pending navigations. Status: ok
+[44.565][INFO]: Waiting for pending navigations...
+[44.566][INFO]: Done waiting for pending navigations. Status: ok
+[44.566][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[45.069][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[45.069][INFO]: Waiting for pending navigations...
+[45.069][INFO]: Done waiting for pending navigations. Status: ok
+[45.129][INFO]: Waiting for pending navigations...
+[45.131][INFO]: Done waiting for pending navigations. Status: ok
+[45.131][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[45.637][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[45.638][INFO]: Waiting for pending navigations...
+[45.640][INFO]: Done waiting for pending navigations. Status: ok
+[45.700][INFO]: Waiting for pending navigations...
+[45.701][INFO]: Done waiting for pending navigations. Status: ok
+[45.701][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[46.203][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[46.203][INFO]: Waiting for pending navigations...
+[46.204][INFO]: Done waiting for pending navigations. Status: ok
+[46.235][INFO]: Waiting for pending navigations...
+[46.236][INFO]: Done waiting for pending navigations. Status: ok
+[46.236][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[46.738][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[46.738][INFO]: Waiting for pending navigations...
+[46.739][INFO]: Done waiting for pending navigations. Status: ok
+[46.777][INFO]: Waiting for pending navigations...
+[46.777][INFO]: Done waiting for pending navigations. Status: ok
+[46.777][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[47.284][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[47.284][INFO]: Waiting for pending navigations...
+[47.286][INFO]: Done waiting for pending navigations. Status: ok
+[47.349][INFO]: Waiting for pending navigations...
+[47.350][INFO]: Done waiting for pending navigations. Status: ok
+[47.350][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[47.855][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[47.855][INFO]: Waiting for pending navigations...
+[47.858][INFO]: Done waiting for pending navigations. Status: ok
+[47.900][INFO]: Waiting for pending navigations...
+[47.900][INFO]: Done waiting for pending navigations. Status: ok
+[47.900][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[48.407][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[48.407][INFO]: Waiting for pending navigations...
+[48.410][INFO]: Done waiting for pending navigations. Status: ok
+[48.458][INFO]: Waiting for pending navigations...
+[48.459][INFO]: Done waiting for pending navigations. Status: ok
+[48.459][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[48.964][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[48.965][INFO]: Waiting for pending navigations...
+[48.967][INFO]: Done waiting for pending navigations. Status: ok
+[49.030][INFO]: Waiting for pending navigations...
+[49.038][INFO]: Done waiting for pending navigations. Status: ok
+[49.038][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[49.544][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[49.544][INFO]: Waiting for pending navigations...
+[49.547][INFO]: Done waiting for pending navigations. Status: ok
+[49.597][INFO]: Waiting for pending navigations...
+[49.598][INFO]: Done waiting for pending navigations. Status: ok
+[49.598][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[50.100][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[50.100][INFO]: Waiting for pending navigations...
+[50.101][INFO]: Done waiting for pending navigations. Status: ok
+[50.137][INFO]: Waiting for pending navigations...
+[50.137][INFO]: Done waiting for pending navigations. Status: ok
+[50.137][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[50.644][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[50.644][INFO]: Waiting for pending navigations...
+[50.646][INFO]: Done waiting for pending navigations. Status: ok
+[50.730][INFO]: Waiting for pending navigations...
+[50.730][INFO]: Done waiting for pending navigations. Status: ok
+[50.730][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[51.235][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[51.235][INFO]: Waiting for pending navigations...
+[51.236][INFO]: Done waiting for pending navigations. Status: ok
+[51.284][INFO]: Waiting for pending navigations...
+[51.284][INFO]: Done waiting for pending navigations. Status: ok
+[51.284][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[51.791][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[51.791][INFO]: Waiting for pending navigations...
+[51.794][INFO]: Done waiting for pending navigations. Status: ok
+[51.853][INFO]: Waiting for pending navigations...
+[51.853][INFO]: Done waiting for pending navigations. Status: ok
+[51.853][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[52.360][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[52.360][INFO]: Waiting for pending navigations...
+[52.362][INFO]: Done waiting for pending navigations. Status: ok
+[52.416][INFO]: Waiting for pending navigations...
+[52.417][INFO]: Done waiting for pending navigations. Status: ok
+[52.417][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[52.919][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[52.919][INFO]: Waiting for pending navigations...
+[52.920][INFO]: Done waiting for pending navigations. Status: ok
+[52.951][INFO]: Waiting for pending navigations...
+[52.951][INFO]: Done waiting for pending navigations. Status: ok
+[52.951][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[53.458][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[53.458][INFO]: Waiting for pending navigations...
+[53.460][INFO]: Done waiting for pending navigations. Status: ok
+[53.528][INFO]: Waiting for pending navigations...
+[53.528][INFO]: Done waiting for pending navigations. Status: ok
+[53.528][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[54.031][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[54.031][INFO]: Waiting for pending navigations...
+[54.032][INFO]: Done waiting for pending navigations. Status: ok
+[54.072][INFO]: Waiting for pending navigations...
+[54.075][INFO]: Done waiting for pending navigations. Status: ok
+[54.075][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[54.580][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[54.581][INFO]: Waiting for pending navigations...
+[54.583][INFO]: Done waiting for pending navigations. Status: ok
+[54.638][INFO]: Waiting for pending navigations...
+[54.639][INFO]: Done waiting for pending navigations. Status: ok
+[54.639][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[55.145][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[55.145][INFO]: Waiting for pending navigations...
+[55.147][INFO]: Done waiting for pending navigations. Status: ok
+[55.203][INFO]: Waiting for pending navigations...
+[55.204][INFO]: Done waiting for pending navigations. Status: ok
+[55.204][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[55.709][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[55.709][INFO]: Waiting for pending navigations...
+[55.712][INFO]: Done waiting for pending navigations. Status: ok
+[55.774][INFO]: Waiting for pending navigations...
+[55.777][INFO]: Done waiting for pending navigations. Status: ok
+[55.778][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[56.280][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[56.280][INFO]: Waiting for pending navigations...
+[56.281][INFO]: Done waiting for pending navigations. Status: ok
+[56.312][INFO]: Waiting for pending navigations...
+[56.313][INFO]: Done waiting for pending navigations. Status: ok
+[56.313][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[56.819][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[56.819][INFO]: Waiting for pending navigations...
+[56.821][INFO]: Done waiting for pending navigations. Status: ok
+[56.862][INFO]: Waiting for pending navigations...
+[56.864][INFO]: Done waiting for pending navigations. Status: ok
+[56.864][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[57.370][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[57.370][INFO]: Waiting for pending navigations...
+[57.372][INFO]: Done waiting for pending navigations. Status: ok
+[57.431][INFO]: Waiting for pending navigations...
+[57.432][INFO]: Done waiting for pending navigations. Status: ok
+[57.432][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[57.938][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[57.938][INFO]: Waiting for pending navigations...
+[57.940][INFO]: Done waiting for pending navigations. Status: ok
+[58.001][INFO]: Waiting for pending navigations...
+[58.004][INFO]: Done waiting for pending navigations. Status: ok
+[58.004][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[58.511][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[58.511][INFO]: Waiting for pending navigations...
+[58.514][INFO]: Done waiting for pending navigations. Status: ok
+[58.566][INFO]: Waiting for pending navigations...
+[58.567][INFO]: Done waiting for pending navigations. Status: ok
+[58.567][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[59.073][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[59.073][INFO]: Waiting for pending navigations...
+[59.075][INFO]: Done waiting for pending navigations. Status: ok
+[59.139][INFO]: Waiting for pending navigations...
+[59.140][INFO]: Done waiting for pending navigations. Status: ok
+[59.140][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[59.646][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[59.646][INFO]: Waiting for pending navigations...
+[59.648][INFO]: Done waiting for pending navigations. Status: ok
+[59.704][INFO]: Waiting for pending navigations...
+[59.704][INFO]: Done waiting for pending navigations. Status: ok
+[59.704][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[60.210][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[60.210][INFO]: Waiting for pending navigations...
+[60.212][INFO]: Done waiting for pending navigations. Status: ok
+[60.277][INFO]: Waiting for pending navigations...
+[60.277][INFO]: Done waiting for pending navigations. Status: ok
+[60.278][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[60.784][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[60.784][INFO]: Waiting for pending navigations...
+[60.787][INFO]: Done waiting for pending navigations. Status: ok
+[60.848][INFO]: Waiting for pending navigations...
+[60.850][INFO]: Done waiting for pending navigations. Status: ok
+[60.850][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[61.356][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[61.356][INFO]: Waiting for pending navigations...
+[61.358][INFO]: Done waiting for pending navigations. Status: ok
+[61.409][INFO]: Waiting for pending navigations...
+[61.410][INFO]: Done waiting for pending navigations. Status: ok
+[61.410][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[61.916][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[61.916][INFO]: Waiting for pending navigations...
+[61.918][INFO]: Done waiting for pending navigations. Status: ok
+[61.982][INFO]: Waiting for pending navigations...
+[61.982][INFO]: Done waiting for pending navigations. Status: ok
+[61.982][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[62.488][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[62.488][INFO]: Waiting for pending navigations...
+[62.490][INFO]: Done waiting for pending navigations. Status: ok
+[62.554][INFO]: Waiting for pending navigations...
+[62.554][INFO]: Done waiting for pending navigations. Status: ok
+[62.554][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[63.060][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[63.060][INFO]: Waiting for pending navigations...
+[63.062][INFO]: Done waiting for pending navigations. Status: ok
+[63.136][INFO]: Waiting for pending navigations...
+[63.137][INFO]: Done waiting for pending navigations. Status: ok
+[63.137][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[63.643][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[63.643][INFO]: Waiting for pending navigations...
+[63.645][INFO]: Done waiting for pending navigations. Status: ok
+[63.698][INFO]: Waiting for pending navigations...
+[63.699][INFO]: Done waiting for pending navigations. Status: ok
+[63.699][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[64.205][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[64.205][INFO]: Waiting for pending navigations...
+[64.207][INFO]: Done waiting for pending navigations. Status: ok
+[64.275][INFO]: Waiting for pending navigations...
+[64.277][INFO]: Done waiting for pending navigations. Status: ok
+[64.277][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[64.783][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[64.783][INFO]: Waiting for pending navigations...
+[64.785][INFO]: Done waiting for pending navigations. Status: ok
+[64.838][INFO]: Waiting for pending navigations...
+[64.839][INFO]: Done waiting for pending navigations. Status: ok
+[64.839][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[65.347][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[65.347][INFO]: Waiting for pending navigations...
+[65.349][INFO]: Done waiting for pending navigations. Status: ok
+[65.407][INFO]: Waiting for pending navigations...
+[65.408][INFO]: Done waiting for pending navigations. Status: ok
+[65.408][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[65.413][INFO]: COMMAND GetUrl {
+
+}
+[65.413][INFO]: Waiting for pending navigations...
+[65.414][INFO]: Done waiting for pending navigations. Status: ok
+[65.415][INFO]: Waiting for pending navigations...
+[65.416][INFO]: Done waiting for pending navigations. Status: ok
+[65.416][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[88.724][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[88.724][INFO]: Waiting for pending navigations...
+[88.725][INFO]: Done waiting for pending navigations. Status: ok
+[88.733][INFO]: Waiting for pending navigations...
+[105.322][INFO]: Done waiting for pending navigations. Status: ok
+[105.322][INFO]: RESPONSE Navigate
+[110.337][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[110.337][INFO]: Waiting for pending navigations...
+[110.339][INFO]: Done waiting for pending navigations. Status: ok
+[110.447][INFO]: Waiting for pending navigations...
+[110.448][INFO]: Done waiting for pending navigations. Status: ok
+[110.448][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[110.954][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[110.955][INFO]: Waiting for pending navigations...
+[110.957][INFO]: Done waiting for pending navigations. Status: ok
+[111.055][INFO]: Waiting for pending navigations...
+[111.056][INFO]: Done waiting for pending navigations. Status: ok
+[111.056][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[111.561][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[111.561][INFO]: Waiting for pending navigations...
+[111.563][INFO]: Done waiting for pending navigations. Status: ok
+[111.661][INFO]: Waiting for pending navigations...
+[111.663][INFO]: Done waiting for pending navigations. Status: ok
+[111.663][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[112.169][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[112.169][INFO]: Waiting for pending navigations...
+[112.171][INFO]: Done waiting for pending navigations. Status: ok
+[112.285][INFO]: Waiting for pending navigations...
+[112.286][INFO]: Done waiting for pending navigations. Status: ok
+[112.286][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[112.792][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[112.792][INFO]: Waiting for pending navigations...
+[112.796][INFO]: Done waiting for pending navigations. Status: ok
+[112.894][INFO]: Waiting for pending navigations...
+[112.895][INFO]: Done waiting for pending navigations. Status: ok
+[112.895][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[113.397][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[113.397][INFO]: Waiting for pending navigations...
+[113.398][INFO]: Done waiting for pending navigations. Status: ok
+[113.477][INFO]: Waiting for pending navigations...
+[113.482][INFO]: Done waiting for pending navigations. Status: ok
+[113.482][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[113.988][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[113.988][INFO]: Waiting for pending navigations...
+[113.990][INFO]: Done waiting for pending navigations. Status: ok
+[114.083][INFO]: Waiting for pending navigations...
+[114.088][INFO]: Done waiting for pending navigations. Status: ok
+[114.088][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[114.594][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[114.594][INFO]: Waiting for pending navigations...
+[114.597][INFO]: Done waiting for pending navigations. Status: ok
+[114.688][INFO]: Waiting for pending navigations...
+[114.690][INFO]: Done waiting for pending navigations. Status: ok
+[114.690][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[115.196][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[115.196][INFO]: Waiting for pending navigations...
+[115.198][INFO]: Done waiting for pending navigations. Status: ok
+[115.307][INFO]: Waiting for pending navigations...
+[115.308][INFO]: Done waiting for pending navigations. Status: ok
+[115.308][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[115.814][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[115.814][INFO]: Waiting for pending navigations...
+[115.816][INFO]: Done waiting for pending navigations. Status: ok
+[115.918][INFO]: Waiting for pending navigations...
+[115.919][INFO]: Done waiting for pending navigations. Status: ok
+[115.919][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[116.424][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[116.424][INFO]: Waiting for pending navigations...
+[116.426][INFO]: Done waiting for pending navigations. Status: ok
+[116.536][INFO]: Waiting for pending navigations...
+[116.542][INFO]: Done waiting for pending navigations. Status: ok
+[116.542][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[117.045][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[117.045][INFO]: Waiting for pending navigations...
+[117.045][INFO]: Done waiting for pending navigations. Status: ok
+[117.122][INFO]: Waiting for pending navigations...
+[117.123][INFO]: Done waiting for pending navigations. Status: ok
+[117.123][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[117.629][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[117.629][INFO]: Waiting for pending navigations...
+[117.631][INFO]: Done waiting for pending navigations. Status: ok
+[117.742][INFO]: Waiting for pending navigations...
+[117.743][INFO]: Done waiting for pending navigations. Status: ok
+[117.743][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[118.249][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[118.250][INFO]: Waiting for pending navigations...
+[118.252][INFO]: Done waiting for pending navigations. Status: ok
+[118.345][INFO]: Waiting for pending navigations...
+[118.346][INFO]: Done waiting for pending navigations. Status: ok
+[118.346][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[118.851][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[118.851][INFO]: Waiting for pending navigations...
+[118.853][INFO]: Done waiting for pending navigations. Status: ok
+[118.945][INFO]: Waiting for pending navigations...
+[118.950][INFO]: Done waiting for pending navigations. Status: ok
+[118.950][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[119.451][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[119.452][INFO]: Waiting for pending navigations...
+[119.452][INFO]: Done waiting for pending navigations. Status: ok
+[119.535][INFO]: Waiting for pending navigations...
+[119.536][INFO]: Done waiting for pending navigations. Status: ok
+[119.536][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[120.042][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[120.042][INFO]: Waiting for pending navigations...
+[120.044][INFO]: Done waiting for pending navigations. Status: ok
+[120.151][INFO]: Waiting for pending navigations...
+[120.152][INFO]: Done waiting for pending navigations. Status: ok
+[120.152][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[120.658][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[120.658][INFO]: Waiting for pending navigations...
+[120.660][INFO]: Done waiting for pending navigations. Status: ok
+[120.765][INFO]: Waiting for pending navigations...
+[120.772][INFO]: Done waiting for pending navigations. Status: ok
+[120.772][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[121.280][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[121.280][INFO]: Waiting for pending navigations...
+[121.283][INFO]: Done waiting for pending navigations. Status: ok
+[121.377][INFO]: Waiting for pending navigations...
+[121.377][INFO]: Done waiting for pending navigations. Status: ok
+[121.377][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[121.883][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[121.883][INFO]: Waiting for pending navigations...
+[121.886][INFO]: Done waiting for pending navigations. Status: ok
+[121.973][INFO]: Waiting for pending navigations...
+[121.980][INFO]: Done waiting for pending navigations. Status: ok
+[121.980][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[122.485][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[122.485][INFO]: Waiting for pending navigations...
+[122.487][INFO]: Done waiting for pending navigations. Status: ok
+[122.601][INFO]: Waiting for pending navigations...
+[122.604][INFO]: Done waiting for pending navigations. Status: ok
+[122.604][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[123.109][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[123.109][INFO]: Waiting for pending navigations...
+[123.111][INFO]: Done waiting for pending navigations. Status: ok
+[123.206][INFO]: Waiting for pending navigations...
+[123.206][INFO]: Done waiting for pending navigations. Status: ok
+[123.206][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[123.712][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[123.712][INFO]: Waiting for pending navigations...
+[123.714][INFO]: Done waiting for pending navigations. Status: ok
+[123.823][INFO]: Waiting for pending navigations...
+[123.824][INFO]: Done waiting for pending navigations. Status: ok
+[123.824][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[124.329][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[124.329][INFO]: Waiting for pending navigations...
+[124.331][INFO]: Done waiting for pending navigations. Status: ok
+[124.437][INFO]: Waiting for pending navigations...
+[124.438][INFO]: Done waiting for pending navigations. Status: ok
+[124.438][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[124.944][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[124.944][INFO]: Waiting for pending navigations...
+[124.947][INFO]: Done waiting for pending navigations. Status: ok
+[125.060][INFO]: Waiting for pending navigations...
+[125.068][INFO]: Done waiting for pending navigations. Status: ok
+[125.068][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[125.573][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[125.573][INFO]: Waiting for pending navigations...
+[125.576][INFO]: Done waiting for pending navigations. Status: ok
+[125.665][INFO]: Waiting for pending navigations...
+[125.666][INFO]: Done waiting for pending navigations. Status: ok
+[125.666][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[126.168][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[126.168][INFO]: Waiting for pending navigations...
+[126.169][INFO]: Done waiting for pending navigations. Status: ok
+[126.260][INFO]: Waiting for pending navigations...
+[126.260][INFO]: Done waiting for pending navigations. Status: ok
+[126.260][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[126.766][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[126.767][INFO]: Waiting for pending navigations...
+[126.769][INFO]: Done waiting for pending navigations. Status: ok
+[126.858][INFO]: Waiting for pending navigations...
+[126.859][INFO]: Done waiting for pending navigations. Status: ok
+[126.859][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[127.361][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[127.361][INFO]: Waiting for pending navigations...
+[127.362][INFO]: Done waiting for pending navigations. Status: ok
+[127.466][INFO]: Waiting for pending navigations...
+[127.467][INFO]: Done waiting for pending navigations. Status: ok
+[127.467][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[127.972][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[127.972][INFO]: Waiting for pending navigations...
+[127.975][INFO]: Done waiting for pending navigations. Status: ok
+[128.081][INFO]: Waiting for pending navigations...
+[128.082][INFO]: Done waiting for pending navigations. Status: ok
+[128.082][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[128.587][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[128.587][INFO]: Waiting for pending navigations...
+[128.589][INFO]: Done waiting for pending navigations. Status: ok
+[128.693][INFO]: Waiting for pending navigations...
+[128.697][INFO]: Done waiting for pending navigations. Status: ok
+[128.697][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[129.203][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[129.203][INFO]: Waiting for pending navigations...
+[129.206][INFO]: Done waiting for pending navigations. Status: ok
+[129.291][INFO]: Waiting for pending navigations...
+[129.292][INFO]: Done waiting for pending navigations. Status: ok
+[129.292][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[129.798][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[129.798][INFO]: Waiting for pending navigations...
+[129.800][INFO]: Done waiting for pending navigations. Status: ok
+[129.892][INFO]: Waiting for pending navigations...
+[129.893][INFO]: Done waiting for pending navigations. Status: ok
+[129.893][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[130.399][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[130.399][INFO]: Waiting for pending navigations...
+[130.402][INFO]: Done waiting for pending navigations. Status: ok
+[130.520][INFO]: Waiting for pending navigations...
+[130.521][INFO]: Done waiting for pending navigations. Status: ok
+[130.521][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[131.027][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[131.027][INFO]: Waiting for pending navigations...
+[131.029][INFO]: Done waiting for pending navigations. Status: ok
+[131.117][INFO]: Waiting for pending navigations...
+[131.125][INFO]: Done waiting for pending navigations. Status: ok
+[131.125][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[131.631][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[131.632][INFO]: Waiting for pending navigations...
+[131.634][INFO]: Done waiting for pending navigations. Status: ok
+[131.729][INFO]: Waiting for pending navigations...
+[131.731][INFO]: Done waiting for pending navigations. Status: ok
+[131.731][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[132.237][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[132.237][INFO]: Waiting for pending navigations...
+[132.239][INFO]: Done waiting for pending navigations. Status: ok
+[132.343][INFO]: Waiting for pending navigations...
+[132.343][INFO]: Done waiting for pending navigations. Status: ok
+[132.343][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[132.848][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[132.849][INFO]: Waiting for pending navigations...
+[132.851][INFO]: Done waiting for pending navigations. Status: ok
+[132.946][INFO]: Waiting for pending navigations...
+[132.954][INFO]: Done waiting for pending navigations. Status: ok
+[132.954][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[133.459][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[133.459][INFO]: Waiting for pending navigations...
+[133.461][INFO]: Done waiting for pending navigations. Status: ok
+[133.561][INFO]: Waiting for pending navigations...
+[133.569][INFO]: Done waiting for pending navigations. Status: ok
+[133.569][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[134.074][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[134.074][INFO]: Waiting for pending navigations...
+[134.076][INFO]: Done waiting for pending navigations. Status: ok
+[134.179][INFO]: Waiting for pending navigations...
+[134.185][INFO]: Done waiting for pending navigations. Status: ok
+[134.185][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[134.688][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[134.688][INFO]: Waiting for pending navigations...
+[134.688][INFO]: Done waiting for pending navigations. Status: ok
+[134.772][INFO]: Waiting for pending navigations...
+[134.773][INFO]: Done waiting for pending navigations. Status: ok
+[134.773][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[135.275][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[135.275][INFO]: Waiting for pending navigations...
+[135.276][INFO]: Done waiting for pending navigations. Status: ok
+[135.356][INFO]: Waiting for pending navigations...
+[135.356][INFO]: Done waiting for pending navigations. Status: ok
+[135.356][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[135.861][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[135.861][INFO]: Waiting for pending navigations...
+[135.868][INFO]: Done waiting for pending navigations. Status: ok
+[135.959][INFO]: Waiting for pending navigations...
+[135.961][INFO]: Done waiting for pending navigations. Status: ok
+[135.961][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[136.466][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[136.466][INFO]: Waiting for pending navigations...
+[136.469][INFO]: Done waiting for pending navigations. Status: ok
+[136.574][INFO]: Waiting for pending navigations...
+[136.575][INFO]: Done waiting for pending navigations. Status: ok
+[136.575][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[137.080][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[137.080][INFO]: Waiting for pending navigations...
+[137.082][INFO]: Done waiting for pending navigations. Status: ok
+[137.188][INFO]: Waiting for pending navigations...
+[137.189][INFO]: Done waiting for pending navigations. Status: ok
+[137.189][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[137.694][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[137.694][INFO]: Waiting for pending navigations...
+[137.697][INFO]: Done waiting for pending navigations. Status: ok
+[137.809][INFO]: Waiting for pending navigations...
+[137.809][INFO]: Done waiting for pending navigations. Status: ok
+[137.809][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[138.315][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[138.315][INFO]: Waiting for pending navigations...
+[138.317][INFO]: Done waiting for pending navigations. Status: ok
+[138.414][INFO]: Waiting for pending navigations...
+[138.422][INFO]: Done waiting for pending navigations. Status: ok
+[138.422][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[138.928][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[138.928][INFO]: Waiting for pending navigations...
+[138.930][INFO]: Done waiting for pending navigations. Status: ok
+[139.041][INFO]: Waiting for pending navigations...
+[139.041][INFO]: Done waiting for pending navigations. Status: ok
+[139.041][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[139.546][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[139.547][INFO]: Waiting for pending navigations...
+[139.549][INFO]: Done waiting for pending navigations. Status: ok
+[139.638][INFO]: Waiting for pending navigations...
+[139.639][INFO]: Done waiting for pending navigations. Status: ok
+[139.639][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[140.144][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[140.144][INFO]: Waiting for pending navigations...
+[140.146][INFO]: Done waiting for pending navigations. Status: ok
+[140.239][INFO]: Waiting for pending navigations...
+[140.240][INFO]: Done waiting for pending navigations. Status: ok
+[140.240][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[140.746][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[140.747][INFO]: Waiting for pending navigations...
+[140.749][INFO]: Done waiting for pending navigations. Status: ok
+[140.868][INFO]: Waiting for pending navigations...
+[140.869][INFO]: Done waiting for pending navigations. Status: ok
+[140.869][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[140.873][INFO]: COMMAND GetUrl {
+
+}
+[140.873][INFO]: Waiting for pending navigations...
+[140.875][INFO]: Done waiting for pending navigations. Status: ok
+[140.877][INFO]: Waiting for pending navigations...
+[140.878][INFO]: Done waiting for pending navigations. Status: ok
+[140.878][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[515.024][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[515.024][INFO]: Waiting for pending navigations...
+[515.025][INFO]: Done waiting for pending navigations. Status: ok
+[515.032][INFO]: Waiting for pending navigations...
+[521.953][INFO]: Done waiting for pending navigations. Status: ok
+[521.953][INFO]: RESPONSE Navigate
+[526.962][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[526.972][INFO]: Waiting for pending navigations...
+[526.976][INFO]: Done waiting for pending navigations. Status: ok
+[527.089][INFO]: Waiting for pending navigations...
+[527.094][INFO]: Done waiting for pending navigations. Status: ok
+[527.094][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[527.598][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[527.598][INFO]: Waiting for pending navigations...
+[527.601][INFO]: Done waiting for pending navigations. Status: ok
+[527.704][INFO]: Waiting for pending navigations...
+[527.706][INFO]: Done waiting for pending navigations. Status: ok
+[527.706][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[528.212][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[528.212][INFO]: Waiting for pending navigations...
+[528.214][INFO]: Done waiting for pending navigations. Status: ok
+[528.327][INFO]: Waiting for pending navigations...
+[528.328][INFO]: Done waiting for pending navigations. Status: ok
+[528.328][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[528.834][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[528.834][INFO]: Waiting for pending navigations...
+[528.836][INFO]: Done waiting for pending navigations. Status: ok
+[528.952][INFO]: Waiting for pending navigations...
+[528.953][INFO]: Done waiting for pending navigations. Status: ok
+[528.953][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[529.455][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[529.455][INFO]: Waiting for pending navigations...
+[529.456][INFO]: Done waiting for pending navigations. Status: ok
+[529.545][INFO]: Waiting for pending navigations...
+[529.547][INFO]: Done waiting for pending navigations. Status: ok
+[529.547][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[530.053][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[530.053][INFO]: Waiting for pending navigations...
+[530.055][INFO]: Done waiting for pending navigations. Status: ok
+[530.156][INFO]: Waiting for pending navigations...
+[530.157][INFO]: Done waiting for pending navigations. Status: ok
+[530.157][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[530.663][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[530.664][INFO]: Waiting for pending navigations...
+[530.666][INFO]: Done waiting for pending navigations. Status: ok
+[530.778][INFO]: Waiting for pending navigations...
+[530.778][INFO]: Done waiting for pending navigations. Status: ok
+[530.778][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[531.284][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[531.284][INFO]: Waiting for pending navigations...
+[531.287][INFO]: Done waiting for pending navigations. Status: ok
+[531.380][INFO]: Waiting for pending navigations...
+[531.389][INFO]: Done waiting for pending navigations. Status: ok
+[531.389][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[531.892][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[531.892][INFO]: Waiting for pending navigations...
+[531.892][INFO]: Done waiting for pending navigations. Status: ok
+[531.981][INFO]: Waiting for pending navigations...
+[531.982][INFO]: Done waiting for pending navigations. Status: ok
+[531.982][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[532.484][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[532.484][INFO]: Waiting for pending navigations...
+[532.486][INFO]: Done waiting for pending navigations. Status: ok
+[532.562][INFO]: Waiting for pending navigations...
+[532.563][INFO]: Done waiting for pending navigations. Status: ok
+[532.563][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[533.065][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[533.065][INFO]: Waiting for pending navigations...
+[533.066][INFO]: Done waiting for pending navigations. Status: ok
+[533.150][INFO]: Waiting for pending navigations...
+[533.151][INFO]: Done waiting for pending navigations. Status: ok
+[533.151][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[533.656][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[533.656][INFO]: Waiting for pending navigations...
+[533.658][INFO]: Done waiting for pending navigations. Status: ok
+[533.749][INFO]: Waiting for pending navigations...
+[533.750][INFO]: Done waiting for pending navigations. Status: ok
+[533.750][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[534.255][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[534.255][INFO]: Waiting for pending navigations...
+[534.257][INFO]: Done waiting for pending navigations. Status: ok
+[534.353][INFO]: Waiting for pending navigations...
+[534.354][INFO]: Done waiting for pending navigations. Status: ok
+[534.354][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[534.859][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[534.859][INFO]: Waiting for pending navigations...
+[534.861][INFO]: Done waiting for pending navigations. Status: ok
+[534.949][INFO]: Waiting for pending navigations...
+[534.949][INFO]: Done waiting for pending navigations. Status: ok
+[534.949][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[535.454][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[535.454][INFO]: Waiting for pending navigations...
+[535.457][INFO]: Done waiting for pending navigations. Status: ok
+[535.558][INFO]: Waiting for pending navigations...
+[535.558][INFO]: Done waiting for pending navigations. Status: ok
+[535.558][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[536.063][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[536.063][INFO]: Waiting for pending navigations...
+[536.065][INFO]: Done waiting for pending navigations. Status: ok
+[536.156][INFO]: Waiting for pending navigations...
+[536.156][INFO]: Done waiting for pending navigations. Status: ok
+[536.156][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[536.661][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[536.661][INFO]: Waiting for pending navigations...
+[536.664][INFO]: Done waiting for pending navigations. Status: ok
+[536.779][INFO]: Waiting for pending navigations...
+[536.779][INFO]: Done waiting for pending navigations. Status: ok
+[536.779][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[537.281][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[537.281][INFO]: Waiting for pending navigations...
+[537.282][INFO]: Done waiting for pending navigations. Status: ok
+[537.363][INFO]: Waiting for pending navigations...
+[537.364][INFO]: Done waiting for pending navigations. Status: ok
+[537.364][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[537.876][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[537.876][INFO]: Waiting for pending navigations...
+[537.876][INFO]: Done waiting for pending navigations. Status: ok
+[537.954][INFO]: Waiting for pending navigations...
+[537.962][INFO]: Done waiting for pending navigations. Status: ok
+[537.962][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[538.464][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[538.464][INFO]: Waiting for pending navigations...
+[538.465][INFO]: Done waiting for pending navigations. Status: ok
+[538.552][INFO]: Waiting for pending navigations...
+[538.553][INFO]: Done waiting for pending navigations. Status: ok
+[538.553][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[539.058][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[539.059][INFO]: Waiting for pending navigations...
+[539.061][INFO]: Done waiting for pending navigations. Status: ok
+[539.154][INFO]: Waiting for pending navigations...
+[539.155][INFO]: Done waiting for pending navigations. Status: ok
+[539.155][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[539.661][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[539.661][INFO]: Waiting for pending navigations...
+[539.663][INFO]: Done waiting for pending navigations. Status: ok
+[539.776][INFO]: Waiting for pending navigations...
+[539.777][INFO]: Done waiting for pending navigations. Status: ok
+[539.777][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[540.288][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[540.288][INFO]: Waiting for pending navigations...
+[540.291][INFO]: Done waiting for pending navigations. Status: ok
+[540.382][INFO]: Waiting for pending navigations...
+[540.383][INFO]: Done waiting for pending navigations. Status: ok
+[540.383][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[540.890][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[540.890][INFO]: Waiting for pending navigations...
+[540.892][INFO]: Done waiting for pending navigations. Status: ok
+[541.004][INFO]: Waiting for pending navigations...
+[541.009][INFO]: Done waiting for pending navigations. Status: ok
+[541.009][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[541.516][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[541.516][INFO]: Waiting for pending navigations...
+[541.518][INFO]: Done waiting for pending navigations. Status: ok
+[541.661][INFO]: Waiting for pending navigations...
+[541.661][INFO]: Done waiting for pending navigations. Status: ok
+[541.661][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[542.167][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[542.167][INFO]: Waiting for pending navigations...
+[542.169][INFO]: Done waiting for pending navigations. Status: ok
+[542.271][INFO]: Waiting for pending navigations...
+[542.272][INFO]: Done waiting for pending navigations. Status: ok
+[542.272][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[542.778][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[542.778][INFO]: Waiting for pending navigations...
+[542.780][INFO]: Done waiting for pending navigations. Status: ok
+[542.870][INFO]: Waiting for pending navigations...
+[542.870][INFO]: Done waiting for pending navigations. Status: ok
+[542.870][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[543.375][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[543.375][INFO]: Waiting for pending navigations...
+[543.377][INFO]: Done waiting for pending navigations. Status: ok
+[543.469][INFO]: Waiting for pending navigations...
+[543.477][INFO]: Done waiting for pending navigations. Status: ok
+[543.477][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[543.979][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[543.979][INFO]: Waiting for pending navigations...
+[543.980][INFO]: Done waiting for pending navigations. Status: ok
+[544.059][INFO]: Waiting for pending navigations...
+[544.060][INFO]: Done waiting for pending navigations. Status: ok
+[544.060][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[544.564][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[544.564][INFO]: Waiting for pending navigations...
+[544.567][INFO]: Done waiting for pending navigations. Status: ok
+[544.672][INFO]: Waiting for pending navigations...
+[544.673][INFO]: Done waiting for pending navigations. Status: ok
+[544.673][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[545.176][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[545.176][INFO]: Waiting for pending navigations...
+[545.177][INFO]: Done waiting for pending navigations. Status: ok
+[545.290][INFO]: Waiting for pending navigations...
+[545.300][INFO]: Done waiting for pending navigations. Status: ok
+[545.300][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[545.803][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[545.803][INFO]: Waiting for pending navigations...
+[545.803][INFO]: Done waiting for pending navigations. Status: ok
+[545.889][INFO]: Waiting for pending navigations...
+[545.890][INFO]: Done waiting for pending navigations. Status: ok
+[545.890][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[546.394][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[546.394][INFO]: Waiting for pending navigations...
+[546.397][INFO]: Done waiting for pending navigations. Status: ok
+[546.498][INFO]: Waiting for pending navigations...
+[546.506][INFO]: Done waiting for pending navigations. Status: ok
+[546.506][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[547.010][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[547.010][INFO]: Waiting for pending navigations...
+[547.013][INFO]: Done waiting for pending navigations. Status: ok
+[547.120][INFO]: Waiting for pending navigations...
+[547.159][INFO]: Done waiting for pending navigations. Status: ok
+[547.159][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[547.664][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[547.664][INFO]: Waiting for pending navigations...
+[547.667][INFO]: Done waiting for pending navigations. Status: ok
+[547.789][INFO]: Waiting for pending navigations...
+[547.790][INFO]: Done waiting for pending navigations. Status: ok
+[547.790][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[548.295][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[548.295][INFO]: Waiting for pending navigations...
+[548.298][INFO]: Done waiting for pending navigations. Status: ok
+[548.404][INFO]: Waiting for pending navigations...
+[548.405][INFO]: Done waiting for pending navigations. Status: ok
+[548.405][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[548.906][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[548.906][INFO]: Waiting for pending navigations...
+[548.907][INFO]: Done waiting for pending navigations. Status: ok
+[549.007][INFO]: Waiting for pending navigations...
+[549.015][INFO]: Done waiting for pending navigations. Status: ok
+[549.015][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[549.520][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[549.520][INFO]: Waiting for pending navigations...
+[549.523][INFO]: Done waiting for pending navigations. Status: ok
+[549.624][INFO]: Waiting for pending navigations...
+[549.624][INFO]: Done waiting for pending navigations. Status: ok
+[549.624][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[550.129][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[550.130][INFO]: Waiting for pending navigations...
+[550.132][INFO]: Done waiting for pending navigations. Status: ok
+[550.224][INFO]: Waiting for pending navigations...
+[550.225][INFO]: Done waiting for pending navigations. Status: ok
+[550.225][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[550.730][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[550.731][INFO]: Waiting for pending navigations...
+[550.733][INFO]: Done waiting for pending navigations. Status: ok
+[550.846][INFO]: Waiting for pending navigations...
+[550.847][INFO]: Done waiting for pending navigations. Status: ok
+[550.847][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[551.352][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[551.352][INFO]: Waiting for pending navigations...
+[551.354][INFO]: Done waiting for pending navigations. Status: ok
+[551.454][INFO]: Waiting for pending navigations...
+[551.455][INFO]: Done waiting for pending navigations. Status: ok
+[551.455][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[551.960][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[551.960][INFO]: Waiting for pending navigations...
+[551.962][INFO]: Done waiting for pending navigations. Status: ok
+[552.048][INFO]: Waiting for pending navigations...
+[552.049][INFO]: Done waiting for pending navigations. Status: ok
+[552.049][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[552.554][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[552.554][INFO]: Waiting for pending navigations...
+[552.557][INFO]: Done waiting for pending navigations. Status: ok
+[552.676][INFO]: Waiting for pending navigations...
+[552.677][INFO]: Done waiting for pending navigations. Status: ok
+[552.677][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[553.182][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[553.182][INFO]: Waiting for pending navigations...
+[553.184][INFO]: Done waiting for pending navigations. Status: ok
+[553.281][INFO]: Waiting for pending navigations...
+[553.282][INFO]: Done waiting for pending navigations. Status: ok
+[553.282][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[553.787][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[553.787][INFO]: Waiting for pending navigations...
+[553.790][INFO]: Done waiting for pending navigations. Status: ok
+[553.906][INFO]: Waiting for pending navigations...
+[553.906][INFO]: Done waiting for pending navigations. Status: ok
+[553.906][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[554.411][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[554.411][INFO]: Waiting for pending navigations...
+[554.414][INFO]: Done waiting for pending navigations. Status: ok
+[554.503][INFO]: Waiting for pending navigations...
+[554.504][INFO]: Done waiting for pending navigations. Status: ok
+[554.504][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[555.008][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[555.008][INFO]: Waiting for pending navigations...
+[555.010][INFO]: Done waiting for pending navigations. Status: ok
+[555.104][INFO]: Waiting for pending navigations...
+[555.113][INFO]: Done waiting for pending navigations. Status: ok
+[555.113][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[555.619][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[555.619][INFO]: Waiting for pending navigations...
+[555.621][INFO]: Done waiting for pending navigations. Status: ok
+[555.732][INFO]: Waiting for pending navigations...
+[555.735][INFO]: Done waiting for pending navigations. Status: ok
+[555.735][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[556.239][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[556.240][INFO]: Waiting for pending navigations...
+[556.242][INFO]: Done waiting for pending navigations. Status: ok
+[556.330][INFO]: Waiting for pending navigations...
+[556.336][INFO]: Done waiting for pending navigations. Status: ok
+[556.336][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[556.840][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[556.841][INFO]: Waiting for pending navigations...
+[556.843][INFO]: Done waiting for pending navigations. Status: ok
+[556.934][INFO]: Waiting for pending navigations...
+[556.943][INFO]: Done waiting for pending navigations. Status: ok
+[556.943][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[557.449][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "user-name "
+}
+[557.449][INFO]: Waiting for pending navigations...
+[557.451][INFO]: Done waiting for pending navigations. Status: ok
+[557.557][INFO]: Waiting for pending navigations...
+[557.558][INFO]: Done waiting for pending navigations. Status: ok
+[557.558][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"user-name "}
+  (Session info: chrome=58.0.3029.110)
+[557.561][INFO]: COMMAND GetUrl {
+
+}
+[557.561][INFO]: Waiting for pending navigations...
+[557.562][INFO]: Done waiting for pending navigations. Status: ok
+[557.563][INFO]: Waiting for pending navigations...
+[557.564][INFO]: Done waiting for pending navigations. Status: ok
+[557.564][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[1414.174][INFO]: COMMAND Quit {
+
+}
+[1414.282][INFO]: RESPONSE Quit

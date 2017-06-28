@@ -1,0 +1,3788 @@
+[1.055][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1.057][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.057][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.060][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir68928_16648\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12931 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir68928_22081" data:,
+[1.665][INFO]: resolved localhost to ["127.0.0.1"]
+[1.676][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)",
+      "userDataDir": "C:\\Users\\DEEPAK~1.VER\\AppData\\Local\\Temp\\scoped_dir68928_22081"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.692][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1.693][INFO]: RESPONSE SetTimeout
+[1.698][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[1.698][INFO]: Waiting for pending navigations...
+[1.704][INFO]: Done waiting for pending navigations. Status: ok
+[7.689][INFO]: Waiting for pending navigations...
+[16.703][INFO]: Done waiting for pending navigations. Status: ok
+[16.703][INFO]: RESPONSE Navigate
+[21.724][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[21.727][INFO]: Waiting for pending navigations...
+[24.993][INFO]: Done waiting for pending navigations. Status: ok
+[25.013][INFO]: Waiting for pending navigations...
+[25.013][INFO]: Done waiting for pending navigations. Status: ok
+[25.013][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[25.018][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[25.018][INFO]: Waiting for pending navigations...
+[25.020][INFO]: Done waiting for pending navigations. Status: ok
+[25.032][INFO]: Waiting for pending navigations...
+[25.033][INFO]: Done waiting for pending navigations. Status: ok
+[25.033][INFO]: RESPONSE IsElementDisplayed false
+[25.539][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[25.539][INFO]: Waiting for pending navigations...
+[25.541][INFO]: Done waiting for pending navigations. Status: ok
+[25.559][INFO]: Waiting for pending navigations...
+[25.561][INFO]: Done waiting for pending navigations. Status: ok
+[25.561][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[25.568][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[25.568][INFO]: Waiting for pending navigations...
+[25.568][INFO]: Done waiting for pending navigations. Status: ok
+[25.572][INFO]: Waiting for pending navigations...
+[25.572][INFO]: Done waiting for pending navigations. Status: ok
+[25.572][INFO]: RESPONSE IsElementDisplayed false
+[26.078][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[26.078][INFO]: Waiting for pending navigations...
+[26.080][INFO]: Done waiting for pending navigations. Status: ok
+[26.097][INFO]: Waiting for pending navigations...
+[26.100][INFO]: Done waiting for pending navigations. Status: ok
+[26.100][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[26.108][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[26.108][INFO]: Waiting for pending navigations...
+[26.108][INFO]: Done waiting for pending navigations. Status: ok
+[26.112][INFO]: Waiting for pending navigations...
+[26.112][INFO]: Done waiting for pending navigations. Status: ok
+[26.112][INFO]: RESPONSE IsElementDisplayed false
+[26.618][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[26.619][INFO]: Waiting for pending navigations...
+[26.621][INFO]: Done waiting for pending navigations. Status: ok
+[26.639][INFO]: Waiting for pending navigations...
+[26.641][INFO]: Done waiting for pending navigations. Status: ok
+[26.641][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[26.648][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[26.648][INFO]: Waiting for pending navigations...
+[26.648][INFO]: Done waiting for pending navigations. Status: ok
+[26.652][INFO]: Waiting for pending navigations...
+[26.652][INFO]: Done waiting for pending navigations. Status: ok
+[26.652][INFO]: RESPONSE IsElementDisplayed false
+[27.158][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[27.158][INFO]: Waiting for pending navigations...
+[27.158][INFO]: Done waiting for pending navigations. Status: ok
+[27.163][INFO]: Waiting for pending navigations...
+[27.163][INFO]: Done waiting for pending navigations. Status: ok
+[27.163][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[27.165][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[27.165][INFO]: Waiting for pending navigations...
+[27.166][INFO]: Done waiting for pending navigations. Status: ok
+[27.169][INFO]: Waiting for pending navigations...
+[27.169][INFO]: Done waiting for pending navigations. Status: ok
+[27.169][INFO]: RESPONSE IsElementDisplayed false
+[27.676][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[27.676][INFO]: Waiting for pending navigations...
+[27.679][INFO]: Done waiting for pending navigations. Status: ok
+[27.697][INFO]: Waiting for pending navigations...
+[27.698][INFO]: Done waiting for pending navigations. Status: ok
+[27.698][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[27.701][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[27.701][INFO]: Waiting for pending navigations...
+[27.702][INFO]: Done waiting for pending navigations. Status: ok
+[27.705][INFO]: Waiting for pending navigations...
+[27.705][INFO]: Done waiting for pending navigations. Status: ok
+[27.705][INFO]: RESPONSE IsElementDisplayed false
+[28.212][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[28.212][INFO]: Waiting for pending navigations...
+[28.214][INFO]: Done waiting for pending navigations. Status: ok
+[28.233][INFO]: Waiting for pending navigations...
+[28.235][INFO]: Done waiting for pending navigations. Status: ok
+[28.235][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[28.239][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[28.239][INFO]: Waiting for pending navigations...
+[28.240][INFO]: Done waiting for pending navigations. Status: ok
+[28.243][INFO]: Waiting for pending navigations...
+[28.243][INFO]: Done waiting for pending navigations. Status: ok
+[28.243][INFO]: RESPONSE IsElementDisplayed false
+[28.748][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[28.748][INFO]: Waiting for pending navigations...
+[28.749][INFO]: Done waiting for pending navigations. Status: ok
+[28.753][INFO]: Waiting for pending navigations...
+[28.757][INFO]: Done waiting for pending navigations. Status: ok
+[28.757][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[28.759][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[28.759][INFO]: Waiting for pending navigations...
+[28.760][INFO]: Done waiting for pending navigations. Status: ok
+[28.763][INFO]: Waiting for pending navigations...
+[28.764][INFO]: Done waiting for pending navigations. Status: ok
+[28.764][INFO]: RESPONSE IsElementDisplayed false
+[29.269][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[29.269][INFO]: Waiting for pending navigations...
+[29.272][INFO]: Done waiting for pending navigations. Status: ok
+[29.289][INFO]: Waiting for pending navigations...
+[29.291][INFO]: Done waiting for pending navigations. Status: ok
+[29.291][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[29.297][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[29.297][INFO]: Waiting for pending navigations...
+[29.299][INFO]: Done waiting for pending navigations. Status: ok
+[29.310][INFO]: Waiting for pending navigations...
+[29.311][INFO]: Done waiting for pending navigations. Status: ok
+[29.311][INFO]: RESPONSE IsElementDisplayed false
+[29.821][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[29.821][INFO]: Waiting for pending navigations...
+[29.824][INFO]: Done waiting for pending navigations. Status: ok
+[29.842][INFO]: Waiting for pending navigations...
+[29.844][INFO]: Done waiting for pending navigations. Status: ok
+[29.844][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[29.852][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[29.852][INFO]: Waiting for pending navigations...
+[29.854][INFO]: Done waiting for pending navigations. Status: ok
+[29.860][INFO]: Waiting for pending navigations...
+[29.860][INFO]: Done waiting for pending navigations. Status: ok
+[29.860][INFO]: RESPONSE IsElementDisplayed false
+[30.367][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[30.367][INFO]: Waiting for pending navigations...
+[30.369][INFO]: Done waiting for pending navigations. Status: ok
+[30.388][INFO]: Waiting for pending navigations...
+[30.390][INFO]: Done waiting for pending navigations. Status: ok
+[30.390][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[30.398][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[30.398][INFO]: Waiting for pending navigations...
+[30.399][INFO]: Done waiting for pending navigations. Status: ok
+[30.402][INFO]: Waiting for pending navigations...
+[30.403][INFO]: Done waiting for pending navigations. Status: ok
+[30.403][INFO]: RESPONSE IsElementDisplayed false
+[30.909][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[30.909][INFO]: Waiting for pending navigations...
+[30.911][INFO]: Done waiting for pending navigations. Status: ok
+[30.929][INFO]: Waiting for pending navigations...
+[30.932][INFO]: Done waiting for pending navigations. Status: ok
+[30.932][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[30.938][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[30.938][INFO]: Waiting for pending navigations...
+[30.939][INFO]: Done waiting for pending navigations. Status: ok
+[30.942][INFO]: Waiting for pending navigations...
+[30.942][INFO]: Done waiting for pending navigations. Status: ok
+[30.942][INFO]: RESPONSE IsElementDisplayed false
+[31.448][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[31.448][INFO]: Waiting for pending navigations...
+[31.450][INFO]: Done waiting for pending navigations. Status: ok
+[31.467][INFO]: Waiting for pending navigations...
+[31.469][INFO]: Done waiting for pending navigations. Status: ok
+[31.469][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[31.477][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[31.477][INFO]: Waiting for pending navigations...
+[31.478][INFO]: Done waiting for pending navigations. Status: ok
+[31.481][INFO]: Waiting for pending navigations...
+[31.482][INFO]: Done waiting for pending navigations. Status: ok
+[31.482][INFO]: RESPONSE IsElementDisplayed false
+[31.988][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[31.988][INFO]: Waiting for pending navigations...
+[31.988][INFO]: Done waiting for pending navigations. Status: ok
+[31.993][INFO]: Waiting for pending navigations...
+[31.994][INFO]: Done waiting for pending navigations. Status: ok
+[31.994][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[31.996][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[31.996][INFO]: Waiting for pending navigations...
+[31.996][INFO]: Done waiting for pending navigations. Status: ok
+[32.000][INFO]: Waiting for pending navigations...
+[32.000][INFO]: Done waiting for pending navigations. Status: ok
+[32.000][INFO]: RESPONSE IsElementDisplayed false
+[32.507][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[32.508][INFO]: Waiting for pending navigations...
+[32.510][INFO]: Done waiting for pending navigations. Status: ok
+[32.533][INFO]: Waiting for pending navigations...
+[32.534][INFO]: Done waiting for pending navigations. Status: ok
+[32.534][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[32.536][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[32.536][INFO]: Waiting for pending navigations...
+[32.537][INFO]: Done waiting for pending navigations. Status: ok
+[32.540][INFO]: Waiting for pending navigations...
+[32.541][INFO]: Done waiting for pending navigations. Status: ok
+[32.541][INFO]: RESPONSE IsElementDisplayed false
+[33.043][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[33.043][INFO]: Waiting for pending navigations...
+[33.043][INFO]: Done waiting for pending navigations. Status: ok
+[33.048][INFO]: Waiting for pending navigations...
+[33.048][INFO]: Done waiting for pending navigations. Status: ok
+[33.048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[33.051][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[33.051][INFO]: Waiting for pending navigations...
+[33.051][INFO]: Done waiting for pending navigations. Status: ok
+[33.055][INFO]: Waiting for pending navigations...
+[33.055][INFO]: Done waiting for pending navigations. Status: ok
+[33.055][INFO]: RESPONSE IsElementDisplayed false
+[33.562][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[33.562][INFO]: Waiting for pending navigations...
+[33.564][INFO]: Done waiting for pending navigations. Status: ok
+[33.582][INFO]: Waiting for pending navigations...
+[33.585][INFO]: Done waiting for pending navigations. Status: ok
+[33.585][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[33.592][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[33.593][INFO]: Waiting for pending navigations...
+[33.595][INFO]: Done waiting for pending navigations. Status: ok
+[33.608][INFO]: Waiting for pending navigations...
+[33.609][INFO]: Done waiting for pending navigations. Status: ok
+[33.609][INFO]: RESPONSE IsElementDisplayed false
+[34.116][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[34.116][INFO]: Waiting for pending navigations...
+[34.119][INFO]: Done waiting for pending navigations. Status: ok
+[34.137][INFO]: Waiting for pending navigations...
+[34.140][INFO]: Done waiting for pending navigations. Status: ok
+[34.140][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[34.147][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[34.147][INFO]: Waiting for pending navigations...
+[34.148][INFO]: Done waiting for pending navigations. Status: ok
+[34.151][INFO]: Waiting for pending navigations...
+[34.152][INFO]: Done waiting for pending navigations. Status: ok
+[34.152][INFO]: RESPONSE IsElementDisplayed false
+[34.658][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[34.658][INFO]: Waiting for pending navigations...
+[34.660][INFO]: Done waiting for pending navigations. Status: ok
+[34.679][INFO]: Waiting for pending navigations...
+[34.681][INFO]: Done waiting for pending navigations. Status: ok
+[34.681][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[34.688][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[34.688][INFO]: Waiting for pending navigations...
+[34.689][INFO]: Done waiting for pending navigations. Status: ok
+[34.692][INFO]: Waiting for pending navigations...
+[34.692][INFO]: Done waiting for pending navigations. Status: ok
+[34.692][INFO]: RESPONSE IsElementDisplayed false
+[35.198][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[35.198][INFO]: Waiting for pending navigations...
+[35.199][INFO]: Done waiting for pending navigations. Status: ok
+[35.204][INFO]: Waiting for pending navigations...
+[35.204][INFO]: Done waiting for pending navigations. Status: ok
+[35.204][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[35.206][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[35.206][INFO]: Waiting for pending navigations...
+[35.207][INFO]: Done waiting for pending navigations. Status: ok
+[35.210][INFO]: Waiting for pending navigations...
+[35.210][INFO]: Done waiting for pending navigations. Status: ok
+[35.210][INFO]: RESPONSE IsElementDisplayed false
+[35.715][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[35.715][INFO]: Waiting for pending navigations...
+[35.718][INFO]: Done waiting for pending navigations. Status: ok
+[35.736][INFO]: Waiting for pending navigations...
+[35.738][INFO]: Done waiting for pending navigations. Status: ok
+[35.738][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[35.740][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[35.740][INFO]: Waiting for pending navigations...
+[35.741][INFO]: Done waiting for pending navigations. Status: ok
+[35.745][INFO]: Waiting for pending navigations...
+[35.745][INFO]: Done waiting for pending navigations. Status: ok
+[35.745][INFO]: RESPONSE IsElementDisplayed false
+[36.250][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[36.250][INFO]: Waiting for pending navigations...
+[36.253][INFO]: Done waiting for pending navigations. Status: ok
+[36.271][INFO]: Waiting for pending navigations...
+[36.273][INFO]: Done waiting for pending navigations. Status: ok
+[36.273][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[36.278][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[36.278][INFO]: Waiting for pending navigations...
+[36.279][INFO]: Done waiting for pending navigations. Status: ok
+[36.282][INFO]: Waiting for pending navigations...
+[36.283][INFO]: Done waiting for pending navigations. Status: ok
+[36.283][INFO]: RESPONSE IsElementDisplayed false
+[36.789][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[36.789][INFO]: Waiting for pending navigations...
+[36.792][INFO]: Done waiting for pending navigations. Status: ok
+[36.810][INFO]: Waiting for pending navigations...
+[36.812][INFO]: Done waiting for pending navigations. Status: ok
+[36.812][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[36.818][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[36.818][INFO]: Waiting for pending navigations...
+[36.819][INFO]: Done waiting for pending navigations. Status: ok
+[36.822][INFO]: Waiting for pending navigations...
+[36.823][INFO]: Done waiting for pending navigations. Status: ok
+[36.823][INFO]: RESPONSE IsElementDisplayed false
+[37.328][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[37.328][INFO]: Waiting for pending navigations...
+[37.331][INFO]: Done waiting for pending navigations. Status: ok
+[37.349][INFO]: Waiting for pending navigations...
+[37.351][INFO]: Done waiting for pending navigations. Status: ok
+[37.351][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[37.358][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[37.358][INFO]: Waiting for pending navigations...
+[37.359][INFO]: Done waiting for pending navigations. Status: ok
+[37.362][INFO]: Waiting for pending navigations...
+[37.362][INFO]: Done waiting for pending navigations. Status: ok
+[37.362][INFO]: RESPONSE IsElementDisplayed false
+[37.864][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[37.864][INFO]: Waiting for pending navigations...
+[37.865][INFO]: Done waiting for pending navigations. Status: ok
+[37.870][INFO]: Waiting for pending navigations...
+[37.871][INFO]: Done waiting for pending navigations. Status: ok
+[37.871][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[37.873][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[37.873][INFO]: Waiting for pending navigations...
+[37.873][INFO]: Done waiting for pending navigations. Status: ok
+[37.877][INFO]: Waiting for pending navigations...
+[37.877][INFO]: Done waiting for pending navigations. Status: ok
+[37.877][INFO]: RESPONSE IsElementDisplayed false
+[38.379][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[38.379][INFO]: Waiting for pending navigations...
+[38.380][INFO]: Done waiting for pending navigations. Status: ok
+[38.384][INFO]: Waiting for pending navigations...
+[38.385][INFO]: Done waiting for pending navigations. Status: ok
+[38.385][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[38.388][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[38.388][INFO]: Waiting for pending navigations...
+[38.388][INFO]: Done waiting for pending navigations. Status: ok
+[38.392][INFO]: Waiting for pending navigations...
+[38.393][INFO]: Done waiting for pending navigations. Status: ok
+[38.393][INFO]: RESPONSE IsElementDisplayed false
+[38.894][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[38.894][INFO]: Waiting for pending navigations...
+[38.895][INFO]: Done waiting for pending navigations. Status: ok
+[38.899][INFO]: Waiting for pending navigations...
+[38.900][INFO]: Done waiting for pending navigations. Status: ok
+[38.900][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[38.903][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[38.903][INFO]: Waiting for pending navigations...
+[38.904][INFO]: Done waiting for pending navigations. Status: ok
+[38.907][INFO]: Waiting for pending navigations...
+[38.908][INFO]: Done waiting for pending navigations. Status: ok
+[38.908][INFO]: RESPONSE IsElementDisplayed false
+[39.414][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[39.414][INFO]: Waiting for pending navigations...
+[39.416][INFO]: Done waiting for pending navigations. Status: ok
+[39.430][INFO]: Waiting for pending navigations...
+[39.431][INFO]: Done waiting for pending navigations. Status: ok
+[39.431][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[39.434][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[39.434][INFO]: Waiting for pending navigations...
+[39.434][INFO]: Done waiting for pending navigations. Status: ok
+[39.439][INFO]: Waiting for pending navigations...
+[39.439][INFO]: Done waiting for pending navigations. Status: ok
+[39.439][INFO]: RESPONSE IsElementDisplayed false
+[39.945][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[39.945][INFO]: Waiting for pending navigations...
+[39.947][INFO]: Done waiting for pending navigations. Status: ok
+[39.965][INFO]: Waiting for pending navigations...
+[39.967][INFO]: Done waiting for pending navigations. Status: ok
+[39.967][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[39.969][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[39.969][INFO]: Waiting for pending navigations...
+[39.970][INFO]: Done waiting for pending navigations. Status: ok
+[39.973][INFO]: Waiting for pending navigations...
+[39.973][INFO]: Done waiting for pending navigations. Status: ok
+[39.973][INFO]: RESPONSE IsElementDisplayed false
+[40.479][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[40.479][INFO]: Waiting for pending navigations...
+[40.481][INFO]: Done waiting for pending navigations. Status: ok
+[40.498][INFO]: Waiting for pending navigations...
+[40.500][INFO]: Done waiting for pending navigations. Status: ok
+[40.500][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[40.507][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[40.507][INFO]: Waiting for pending navigations...
+[40.508][INFO]: Done waiting for pending navigations. Status: ok
+[40.511][INFO]: Waiting for pending navigations...
+[40.512][INFO]: Done waiting for pending navigations. Status: ok
+[40.512][INFO]: RESPONSE IsElementDisplayed false
+[41.017][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[41.017][INFO]: Waiting for pending navigations...
+[41.018][INFO]: Done waiting for pending navigations. Status: ok
+[41.023][INFO]: Waiting for pending navigations...
+[41.023][INFO]: Done waiting for pending navigations. Status: ok
+[41.023][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[41.026][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[41.026][INFO]: Waiting for pending navigations...
+[41.026][INFO]: Done waiting for pending navigations. Status: ok
+[41.029][INFO]: Waiting for pending navigations...
+[41.029][INFO]: Done waiting for pending navigations. Status: ok
+[41.030][INFO]: RESPONSE IsElementDisplayed false
+[41.535][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[41.535][INFO]: Waiting for pending navigations...
+[41.537][INFO]: Done waiting for pending navigations. Status: ok
+[41.554][INFO]: Waiting for pending navigations...
+[41.556][INFO]: Done waiting for pending navigations. Status: ok
+[41.556][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[41.562][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[41.562][INFO]: Waiting for pending navigations...
+[41.564][INFO]: Done waiting for pending navigations. Status: ok
+[41.577][INFO]: Waiting for pending navigations...
+[41.579][INFO]: Done waiting for pending navigations. Status: ok
+[41.579][INFO]: RESPONSE IsElementDisplayed false
+[42.086][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[42.086][INFO]: Waiting for pending navigations...
+[42.088][INFO]: Done waiting for pending navigations. Status: ok
+[42.099][INFO]: Waiting for pending navigations...
+[42.100][INFO]: Done waiting for pending navigations. Status: ok
+[42.100][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[42.102][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[42.102][INFO]: Waiting for pending navigations...
+[42.103][INFO]: Done waiting for pending navigations. Status: ok
+[42.107][INFO]: Waiting for pending navigations...
+[42.107][INFO]: Done waiting for pending navigations. Status: ok
+[42.107][INFO]: RESPONSE IsElementDisplayed false
+[42.613][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[42.613][INFO]: Waiting for pending navigations...
+[42.615][INFO]: Done waiting for pending navigations. Status: ok
+[42.633][INFO]: Waiting for pending navigations...
+[42.635][INFO]: Done waiting for pending navigations. Status: ok
+[42.635][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[42.641][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[42.641][INFO]: Waiting for pending navigations...
+[42.643][INFO]: Done waiting for pending navigations. Status: ok
+[42.654][INFO]: Waiting for pending navigations...
+[42.656][INFO]: Done waiting for pending navigations. Status: ok
+[42.656][INFO]: RESPONSE IsElementDisplayed false
+[43.163][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[43.163][INFO]: Waiting for pending navigations...
+[43.165][INFO]: Done waiting for pending navigations. Status: ok
+[43.182][INFO]: Waiting for pending navigations...
+[43.185][INFO]: Done waiting for pending navigations. Status: ok
+[43.185][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[43.192][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[43.192][INFO]: Waiting for pending navigations...
+[43.194][INFO]: Done waiting for pending navigations. Status: ok
+[43.207][INFO]: Waiting for pending navigations...
+[43.209][INFO]: Done waiting for pending navigations. Status: ok
+[43.209][INFO]: RESPONSE IsElementDisplayed false
+[43.716][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[43.716][INFO]: Waiting for pending navigations...
+[43.718][INFO]: Done waiting for pending navigations. Status: ok
+[43.736][INFO]: Waiting for pending navigations...
+[43.738][INFO]: Done waiting for pending navigations. Status: ok
+[43.738][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[43.745][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[43.745][INFO]: Waiting for pending navigations...
+[43.747][INFO]: Done waiting for pending navigations. Status: ok
+[43.750][INFO]: Waiting for pending navigations...
+[43.751][INFO]: Done waiting for pending navigations. Status: ok
+[43.751][INFO]: RESPONSE IsElementDisplayed false
+[44.257][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[44.257][INFO]: Waiting for pending navigations...
+[44.259][INFO]: Done waiting for pending navigations. Status: ok
+[44.279][INFO]: Waiting for pending navigations...
+[44.281][INFO]: Done waiting for pending navigations. Status: ok
+[44.281][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[44.287][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[44.287][INFO]: Waiting for pending navigations...
+[44.288][INFO]: Done waiting for pending navigations. Status: ok
+[44.292][INFO]: Waiting for pending navigations...
+[44.292][INFO]: Done waiting for pending navigations. Status: ok
+[44.292][INFO]: RESPONSE IsElementDisplayed false
+[44.798][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[44.798][INFO]: Waiting for pending navigations...
+[44.799][INFO]: Done waiting for pending navigations. Status: ok
+[44.809][INFO]: Waiting for pending navigations...
+[44.811][INFO]: Done waiting for pending navigations. Status: ok
+[44.811][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[44.815][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[44.815][INFO]: Waiting for pending navigations...
+[44.816][INFO]: Done waiting for pending navigations. Status: ok
+[44.824][INFO]: Waiting for pending navigations...
+[44.825][INFO]: Done waiting for pending navigations. Status: ok
+[44.825][INFO]: RESPONSE IsElementDisplayed false
+[45.332][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[45.332][INFO]: Waiting for pending navigations...
+[45.334][INFO]: Done waiting for pending navigations. Status: ok
+[45.354][INFO]: Waiting for pending navigations...
+[45.357][INFO]: Done waiting for pending navigations. Status: ok
+[45.357][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[45.363][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[45.363][INFO]: Waiting for pending navigations...
+[45.365][INFO]: Done waiting for pending navigations. Status: ok
+[45.370][INFO]: Waiting for pending navigations...
+[45.370][INFO]: Done waiting for pending navigations. Status: ok
+[45.370][INFO]: RESPONSE IsElementDisplayed false
+[45.876][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[45.876][INFO]: Waiting for pending navigations...
+[45.878][INFO]: Done waiting for pending navigations. Status: ok
+[45.896][INFO]: Waiting for pending navigations...
+[45.897][INFO]: Done waiting for pending navigations. Status: ok
+[45.898][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[45.904][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[45.905][INFO]: Waiting for pending navigations...
+[45.907][INFO]: Done waiting for pending navigations. Status: ok
+[45.911][INFO]: Waiting for pending navigations...
+[45.911][INFO]: Done waiting for pending navigations. Status: ok
+[45.911][INFO]: RESPONSE IsElementDisplayed false
+[46.417][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[46.417][INFO]: Waiting for pending navigations...
+[46.419][INFO]: Done waiting for pending navigations. Status: ok
+[46.451][INFO]: Waiting for pending navigations...
+[46.451][INFO]: Done waiting for pending navigations. Status: ok
+[46.451][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[46.454][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[46.454][INFO]: Waiting for pending navigations...
+[46.454][INFO]: Done waiting for pending navigations. Status: ok
+[46.458][INFO]: Waiting for pending navigations...
+[46.459][INFO]: Done waiting for pending navigations. Status: ok
+[46.459][INFO]: RESPONSE IsElementDisplayed false
+[46.965][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[46.965][INFO]: Waiting for pending navigations...
+[46.968][INFO]: Done waiting for pending navigations. Status: ok
+[46.985][INFO]: Waiting for pending navigations...
+[46.987][INFO]: Done waiting for pending navigations. Status: ok
+[46.987][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[46.989][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[46.989][INFO]: Waiting for pending navigations...
+[46.990][INFO]: Done waiting for pending navigations. Status: ok
+[46.993][INFO]: Waiting for pending navigations...
+[46.994][INFO]: Done waiting for pending navigations. Status: ok
+[46.994][INFO]: RESPONSE IsElementDisplayed false
+[47.499][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[47.499][INFO]: Waiting for pending navigations...
+[47.502][INFO]: Done waiting for pending navigations. Status: ok
+[47.519][INFO]: Waiting for pending navigations...
+[47.521][INFO]: Done waiting for pending navigations. Status: ok
+[47.522][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[47.528][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[47.528][INFO]: Waiting for pending navigations...
+[47.530][INFO]: Done waiting for pending navigations. Status: ok
+[47.543][INFO]: Waiting for pending navigations...
+[47.545][INFO]: Done waiting for pending navigations. Status: ok
+[47.545][INFO]: RESPONSE IsElementDisplayed false
+[48.052][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.052][INFO]: Waiting for pending navigations...
+[48.054][INFO]: Done waiting for pending navigations. Status: ok
+[48.069][INFO]: Waiting for pending navigations...
+[48.069][INFO]: Done waiting for pending navigations. Status: ok
+[48.069][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[48.072][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[48.072][INFO]: Waiting for pending navigations...
+[48.072][INFO]: Done waiting for pending navigations. Status: ok
+[48.077][INFO]: Waiting for pending navigations...
+[48.077][INFO]: Done waiting for pending navigations. Status: ok
+[48.077][INFO]: RESPONSE IsElementDisplayed false
+[48.583][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.583][INFO]: Waiting for pending navigations...
+[48.585][INFO]: Done waiting for pending navigations. Status: ok
+[48.603][INFO]: Waiting for pending navigations...
+[48.605][INFO]: Done waiting for pending navigations. Status: ok
+[48.605][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[48.608][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[48.608][INFO]: Waiting for pending navigations...
+[48.609][INFO]: Done waiting for pending navigations. Status: ok
+[48.613][INFO]: Waiting for pending navigations...
+[48.613][INFO]: Done waiting for pending navigations. Status: ok
+[48.613][INFO]: RESPONSE IsElementDisplayed false
+[49.119][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[49.119][INFO]: Waiting for pending navigations...
+[49.121][INFO]: Done waiting for pending navigations. Status: ok
+[49.138][INFO]: Waiting for pending navigations...
+[49.141][INFO]: Done waiting for pending navigations. Status: ok
+[49.141][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[49.147][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[49.147][INFO]: Waiting for pending navigations...
+[49.148][INFO]: Done waiting for pending navigations. Status: ok
+[49.151][INFO]: Waiting for pending navigations...
+[49.152][INFO]: Done waiting for pending navigations. Status: ok
+[49.152][INFO]: RESPONSE IsElementDisplayed false
+[49.657][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[49.657][INFO]: Waiting for pending navigations...
+[49.658][INFO]: Done waiting for pending navigations. Status: ok
+[49.664][INFO]: Waiting for pending navigations...
+[49.665][INFO]: Done waiting for pending navigations. Status: ok
+[49.665][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[49.667][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[49.667][INFO]: Waiting for pending navigations...
+[49.668][INFO]: Done waiting for pending navigations. Status: ok
+[49.673][INFO]: Waiting for pending navigations...
+[49.673][INFO]: Done waiting for pending navigations. Status: ok
+[49.673][INFO]: RESPONSE IsElementDisplayed false
+[50.179][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[50.179][INFO]: Waiting for pending navigations...
+[50.181][INFO]: Done waiting for pending navigations. Status: ok
+[50.198][INFO]: Waiting for pending navigations...
+[50.200][INFO]: Done waiting for pending navigations. Status: ok
+[50.200][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[50.206][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[50.206][INFO]: Waiting for pending navigations...
+[50.207][INFO]: Done waiting for pending navigations. Status: ok
+[50.218][INFO]: Waiting for pending navigations...
+[50.219][INFO]: Done waiting for pending navigations. Status: ok
+[50.219][INFO]: RESPONSE IsElementDisplayed false
+[50.723][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[50.723][INFO]: Waiting for pending navigations...
+[50.724][INFO]: Done waiting for pending navigations. Status: ok
+[50.730][INFO]: Waiting for pending navigations...
+[50.730][INFO]: Done waiting for pending navigations. Status: ok
+[50.730][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[50.732][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[50.733][INFO]: Waiting for pending navigations...
+[50.733][INFO]: Done waiting for pending navigations. Status: ok
+[50.737][INFO]: Waiting for pending navigations...
+[50.737][INFO]: Done waiting for pending navigations. Status: ok
+[50.737][INFO]: RESPONSE IsElementDisplayed false
+[51.242][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[51.242][INFO]: Waiting for pending navigations...
+[51.244][INFO]: Done waiting for pending navigations. Status: ok
+[51.257][INFO]: Waiting for pending navigations...
+[51.259][INFO]: Done waiting for pending navigations. Status: ok
+[51.259][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[51.263][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[51.263][INFO]: Waiting for pending navigations...
+[51.265][INFO]: Done waiting for pending navigations. Status: ok
+[51.273][INFO]: Waiting for pending navigations...
+[51.274][INFO]: Done waiting for pending navigations. Status: ok
+[51.274][INFO]: RESPONSE IsElementDisplayed false
+[51.778][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[51.778][INFO]: Waiting for pending navigations...
+[51.778][INFO]: Done waiting for pending navigations. Status: ok
+[51.783][INFO]: Waiting for pending navigations...
+[51.784][INFO]: Done waiting for pending navigations. Status: ok
+[51.784][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6557281564653605-1"
+}
+[51.786][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6557281564653605-1"
+}
+[51.786][INFO]: Waiting for pending navigations...
+[51.786][INFO]: Done waiting for pending navigations. Status: ok
+[51.790][INFO]: Waiting for pending navigations...
+[51.790][INFO]: Done waiting for pending navigations. Status: ok
+[51.790][INFO]: RESPONSE IsElementDisplayed false
+[51.795][INFO]: COMMAND GetUrl {
+
+}
+[51.795][INFO]: Waiting for pending navigations...
+[51.796][INFO]: Done waiting for pending navigations. Status: ok
+[51.798][INFO]: Waiting for pending navigations...
+[51.798][INFO]: Done waiting for pending navigations. Status: ok
+[51.798][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[104.421][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[104.422][INFO]: Waiting for pending navigations...
+[104.422][INFO]: Done waiting for pending navigations. Status: ok
+[104.425][INFO]: Waiting for pending navigations...
+[119.837][INFO]: Done waiting for pending navigations. Status: ok
+[119.837][INFO]: RESPONSE Navigate
+[124.856][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[124.856][INFO]: Waiting for pending navigations...
+[124.859][INFO]: Done waiting for pending navigations. Status: ok
+[124.877][INFO]: Waiting for pending navigations...
+[124.878][INFO]: Done waiting for pending navigations. Status: ok
+[124.878][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.002918267726381929-1"
+}
+[124.880][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.002918267726381929-1"
+}
+[124.880][INFO]: Waiting for pending navigations...
+[124.880][INFO]: Done waiting for pending navigations. Status: ok
+[124.891][INFO]: Waiting for pending navigations...
+[124.891][INFO]: Done waiting for pending navigations. Status: ok
+[124.891][INFO]: RESPONSE IsElementDisplayed true
+[124.894][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[124.894][INFO]: Waiting for pending navigations...
+[124.894][INFO]: Done waiting for pending navigations. Status: ok
+[124.898][INFO]: Waiting for pending navigations...
+[124.899][INFO]: Done waiting for pending navigations. Status: ok
+[124.899][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.002918267726381929-1"
+}
+[124.903][INFO]: COMMAND MouseMove {
+   "element": "0.002918267726381929-1"
+}
+[124.903][INFO]: Waiting for pending navigations...
+[124.903][INFO]: Done waiting for pending navigations. Status: ok
+[124.916][INFO]: Waiting for pending navigations...
+[124.916][INFO]: Done waiting for pending navigations. Status: ok
+[124.916][INFO]: RESPONSE MouseMove
+[129.920][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[129.921][INFO]: Waiting for pending navigations...
+[129.922][INFO]: Done waiting for pending navigations. Status: ok
+[130.019][INFO]: Waiting for pending navigations...
+[130.019][INFO]: Done waiting for pending navigations. Status: ok
+[130.019][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[130.522][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[130.522][INFO]: Waiting for pending navigations...
+[130.523][INFO]: Done waiting for pending navigations. Status: ok
+[130.606][INFO]: Waiting for pending navigations...
+[130.607][INFO]: Done waiting for pending navigations. Status: ok
+[130.607][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[131.112][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[131.112][INFO]: Waiting for pending navigations...
+[131.115][INFO]: Done waiting for pending navigations. Status: ok
+[131.208][INFO]: Waiting for pending navigations...
+[131.209][INFO]: Done waiting for pending navigations. Status: ok
+[131.209][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[131.714][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[131.714][INFO]: Waiting for pending navigations...
+[131.716][INFO]: Done waiting for pending navigations. Status: ok
+[131.812][INFO]: Waiting for pending navigations...
+[131.817][INFO]: Done waiting for pending navigations. Status: ok
+[131.817][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[132.322][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[132.322][INFO]: Waiting for pending navigations...
+[132.325][INFO]: Done waiting for pending navigations. Status: ok
+[132.441][INFO]: Waiting for pending navigations...
+[132.443][INFO]: Done waiting for pending navigations. Status: ok
+[132.443][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[132.949][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[132.949][INFO]: Waiting for pending navigations...
+[132.954][INFO]: Done waiting for pending navigations. Status: ok
+[133.042][INFO]: Waiting for pending navigations...
+[133.043][INFO]: Done waiting for pending navigations. Status: ok
+[133.043][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[133.548][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[133.548][INFO]: Waiting for pending navigations...
+[133.550][INFO]: Done waiting for pending navigations. Status: ok
+[133.663][INFO]: Waiting for pending navigations...
+[133.663][INFO]: Done waiting for pending navigations. Status: ok
+[133.663][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[134.169][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[134.169][INFO]: Waiting for pending navigations...
+[134.172][INFO]: Done waiting for pending navigations. Status: ok
+[134.267][INFO]: Waiting for pending navigations...
+[134.268][INFO]: Done waiting for pending navigations. Status: ok
+[134.268][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[134.775][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[134.775][INFO]: Waiting for pending navigations...
+[134.777][INFO]: Done waiting for pending navigations. Status: ok
+[134.902][INFO]: Waiting for pending navigations...
+[134.903][INFO]: Done waiting for pending navigations. Status: ok
+[134.903][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[135.408][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[135.408][INFO]: Waiting for pending navigations...
+[135.411][INFO]: Done waiting for pending navigations. Status: ok
+[135.496][INFO]: Waiting for pending navigations...
+[135.502][INFO]: Done waiting for pending navigations. Status: ok
+[135.502][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[136.007][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[136.007][INFO]: Waiting for pending navigations...
+[136.010][INFO]: Done waiting for pending navigations. Status: ok
+[136.112][INFO]: Waiting for pending navigations...
+[136.120][INFO]: Done waiting for pending navigations. Status: ok
+[136.120][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[136.625][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[136.625][INFO]: Waiting for pending navigations...
+[136.626][INFO]: Done waiting for pending navigations. Status: ok
+[136.705][INFO]: Waiting for pending navigations...
+[136.712][INFO]: Done waiting for pending navigations. Status: ok
+[136.712][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[137.217][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[137.217][INFO]: Waiting for pending navigations...
+[137.220][INFO]: Done waiting for pending navigations. Status: ok
+[137.318][INFO]: Waiting for pending navigations...
+[137.326][INFO]: Done waiting for pending navigations. Status: ok
+[137.326][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[137.831][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[137.831][INFO]: Waiting for pending navigations...
+[137.834][INFO]: Done waiting for pending navigations. Status: ok
+[137.931][INFO]: Waiting for pending navigations...
+[137.932][INFO]: Done waiting for pending navigations. Status: ok
+[137.932][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[138.443][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[138.443][INFO]: Waiting for pending navigations...
+[138.445][INFO]: Done waiting for pending navigations. Status: ok
+[138.559][INFO]: Waiting for pending navigations...
+[138.564][INFO]: Done waiting for pending navigations. Status: ok
+[138.564][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[139.070][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[139.070][INFO]: Waiting for pending navigations...
+[139.072][INFO]: Done waiting for pending navigations. Status: ok
+[139.187][INFO]: Waiting for pending navigations...
+[139.188][INFO]: Done waiting for pending navigations. Status: ok
+[139.188][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[139.696][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[139.696][INFO]: Waiting for pending navigations...
+[139.698][INFO]: Done waiting for pending navigations. Status: ok
+[139.793][INFO]: Waiting for pending navigations...
+[139.799][INFO]: Done waiting for pending navigations. Status: ok
+[139.799][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[140.304][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[140.304][INFO]: Waiting for pending navigations...
+[140.307][INFO]: Done waiting for pending navigations. Status: ok
+[140.411][INFO]: Waiting for pending navigations...
+[140.411][INFO]: Done waiting for pending navigations. Status: ok
+[140.411][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[140.915][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[140.915][INFO]: Waiting for pending navigations...
+[140.917][INFO]: Done waiting for pending navigations. Status: ok
+[141.023][INFO]: Waiting for pending navigations...
+[141.031][INFO]: Done waiting for pending navigations. Status: ok
+[141.031][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[141.536][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[141.536][INFO]: Waiting for pending navigations...
+[141.539][INFO]: Done waiting for pending navigations. Status: ok
+[141.648][INFO]: Waiting for pending navigations...
+[141.649][INFO]: Done waiting for pending navigations. Status: ok
+[141.649][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[142.153][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[142.153][INFO]: Waiting for pending navigations...
+[142.156][INFO]: Done waiting for pending navigations. Status: ok
+[142.251][INFO]: Waiting for pending navigations...
+[142.252][INFO]: Done waiting for pending navigations. Status: ok
+[142.252][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[142.757][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[142.758][INFO]: Waiting for pending navigations...
+[142.760][INFO]: Done waiting for pending navigations. Status: ok
+[142.876][INFO]: Waiting for pending navigations...
+[142.881][INFO]: Done waiting for pending navigations. Status: ok
+[142.881][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[143.386][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[143.386][INFO]: Waiting for pending navigations...
+[143.389][INFO]: Done waiting for pending navigations. Status: ok
+[143.478][INFO]: Waiting for pending navigations...
+[143.485][INFO]: Done waiting for pending navigations. Status: ok
+[143.485][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[143.990][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[143.990][INFO]: Waiting for pending navigations...
+[143.993][INFO]: Done waiting for pending navigations. Status: ok
+[144.104][INFO]: Waiting for pending navigations...
+[144.105][INFO]: Done waiting for pending navigations. Status: ok
+[144.105][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[144.611][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[144.611][INFO]: Waiting for pending navigations...
+[144.613][INFO]: Done waiting for pending navigations. Status: ok
+[144.712][INFO]: Waiting for pending navigations...
+[144.719][INFO]: Done waiting for pending navigations. Status: ok
+[144.719][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[145.224][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[145.225][INFO]: Waiting for pending navigations...
+[145.227][INFO]: Done waiting for pending navigations. Status: ok
+[145.337][INFO]: Waiting for pending navigations...
+[145.339][INFO]: Done waiting for pending navigations. Status: ok
+[145.339][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[145.845][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[145.845][INFO]: Waiting for pending navigations...
+[145.847][INFO]: Done waiting for pending navigations. Status: ok
+[145.939][INFO]: Waiting for pending navigations...
+[145.939][INFO]: Done waiting for pending navigations. Status: ok
+[145.939][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[146.445][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[146.445][INFO]: Waiting for pending navigations...
+[146.447][INFO]: Done waiting for pending navigations. Status: ok
+[146.540][INFO]: Waiting for pending navigations...
+[146.550][INFO]: Done waiting for pending navigations. Status: ok
+[146.550][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[147.056][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[147.056][INFO]: Waiting for pending navigations...
+[147.058][INFO]: Done waiting for pending navigations. Status: ok
+[147.161][INFO]: Waiting for pending navigations...
+[147.162][INFO]: Done waiting for pending navigations. Status: ok
+[147.162][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[147.667][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[147.667][INFO]: Waiting for pending navigations...
+[147.669][INFO]: Done waiting for pending navigations. Status: ok
+[147.771][INFO]: Waiting for pending navigations...
+[147.777][INFO]: Done waiting for pending navigations. Status: ok
+[147.777][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[148.283][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[148.283][INFO]: Waiting for pending navigations...
+[148.285][INFO]: Done waiting for pending navigations. Status: ok
+[148.398][INFO]: Waiting for pending navigations...
+[148.399][INFO]: Done waiting for pending navigations. Status: ok
+[148.399][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[148.904][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[148.904][INFO]: Waiting for pending navigations...
+[148.906][INFO]: Done waiting for pending navigations. Status: ok
+[148.996][INFO]: Waiting for pending navigations...
+[149.003][INFO]: Done waiting for pending navigations. Status: ok
+[149.003][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[149.508][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[149.508][INFO]: Waiting for pending navigations...
+[149.510][INFO]: Done waiting for pending navigations. Status: ok
+[149.628][INFO]: Waiting for pending navigations...
+[149.631][INFO]: Done waiting for pending navigations. Status: ok
+[149.631][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[150.136][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[150.136][INFO]: Waiting for pending navigations...
+[150.138][INFO]: Done waiting for pending navigations. Status: ok
+[150.230][INFO]: Waiting for pending navigations...
+[150.231][INFO]: Done waiting for pending navigations. Status: ok
+[150.231][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[150.736][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[150.736][INFO]: Waiting for pending navigations...
+[150.738][INFO]: Done waiting for pending navigations. Status: ok
+[150.832][INFO]: Waiting for pending navigations...
+[150.832][INFO]: Done waiting for pending navigations. Status: ok
+[150.832][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[151.338][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[151.338][INFO]: Waiting for pending navigations...
+[151.340][INFO]: Done waiting for pending navigations. Status: ok
+[151.452][INFO]: Waiting for pending navigations...
+[151.452][INFO]: Done waiting for pending navigations. Status: ok
+[151.452][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[151.961][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[151.962][INFO]: Waiting for pending navigations...
+[151.963][INFO]: Done waiting for pending navigations. Status: ok
+[152.057][INFO]: Waiting for pending navigations...
+[152.066][INFO]: Done waiting for pending navigations. Status: ok
+[152.066][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[152.571][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[152.571][INFO]: Waiting for pending navigations...
+[152.573][INFO]: Done waiting for pending navigations. Status: ok
+[152.688][INFO]: Waiting for pending navigations...
+[152.689][INFO]: Done waiting for pending navigations. Status: ok
+[152.689][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[153.194][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[153.194][INFO]: Waiting for pending navigations...
+[153.196][INFO]: Done waiting for pending navigations. Status: ok
+[153.292][INFO]: Waiting for pending navigations...
+[153.293][INFO]: Done waiting for pending navigations. Status: ok
+[153.293][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[153.798][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[153.798][INFO]: Waiting for pending navigations...
+[153.801][INFO]: Done waiting for pending navigations. Status: ok
+[153.910][INFO]: Waiting for pending navigations...
+[153.910][INFO]: Done waiting for pending navigations. Status: ok
+[153.910][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[154.415][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[154.415][INFO]: Waiting for pending navigations...
+[154.417][INFO]: Done waiting for pending navigations. Status: ok
+[154.516][INFO]: Waiting for pending navigations...
+[154.517][INFO]: Done waiting for pending navigations. Status: ok
+[154.517][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[155.023][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[155.023][INFO]: Waiting for pending navigations...
+[155.025][INFO]: Done waiting for pending navigations. Status: ok
+[155.119][INFO]: Waiting for pending navigations...
+[155.119][INFO]: Done waiting for pending navigations. Status: ok
+[155.119][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[155.624][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[155.624][INFO]: Waiting for pending navigations...
+[155.627][INFO]: Done waiting for pending navigations. Status: ok
+[155.723][INFO]: Waiting for pending navigations...
+[155.727][INFO]: Done waiting for pending navigations. Status: ok
+[155.727][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[156.232][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[156.232][INFO]: Waiting for pending navigations...
+[156.234][INFO]: Done waiting for pending navigations. Status: ok
+[156.344][INFO]: Waiting for pending navigations...
+[156.345][INFO]: Done waiting for pending navigations. Status: ok
+[156.345][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[156.850][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[156.850][INFO]: Waiting for pending navigations...
+[156.853][INFO]: Done waiting for pending navigations. Status: ok
+[156.951][INFO]: Waiting for pending navigations...
+[156.952][INFO]: Done waiting for pending navigations. Status: ok
+[156.952][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[157.458][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[157.458][INFO]: Waiting for pending navigations...
+[157.460][INFO]: Done waiting for pending navigations. Status: ok
+[157.556][INFO]: Waiting for pending navigations...
+[157.557][INFO]: Done waiting for pending navigations. Status: ok
+[157.557][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[158.062][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[158.062][INFO]: Waiting for pending navigations...
+[158.067][INFO]: Done waiting for pending navigations. Status: ok
+[158.150][INFO]: Waiting for pending navigations...
+[158.157][INFO]: Done waiting for pending navigations. Status: ok
+[158.157][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[158.662][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[158.662][INFO]: Waiting for pending navigations...
+[158.665][INFO]: Done waiting for pending navigations. Status: ok
+[158.778][INFO]: Waiting for pending navigations...
+[158.781][INFO]: Done waiting for pending navigations. Status: ok
+[158.781][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[159.286][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[159.286][INFO]: Waiting for pending navigations...
+[159.289][INFO]: Done waiting for pending navigations. Status: ok
+[159.401][INFO]: Waiting for pending navigations...
+[159.402][INFO]: Done waiting for pending navigations. Status: ok
+[159.402][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[159.907][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[159.907][INFO]: Waiting for pending navigations...
+[159.909][INFO]: Done waiting for pending navigations. Status: ok
+[160.010][INFO]: Waiting for pending navigations...
+[160.011][INFO]: Done waiting for pending navigations. Status: ok
+[160.011][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[160.015][INFO]: COMMAND GetUrl {
+
+}
+[160.015][INFO]: Waiting for pending navigations...
+[160.015][INFO]: Done waiting for pending navigations. Status: ok
+[160.018][INFO]: Waiting for pending navigations...
+[160.018][INFO]: Done waiting for pending navigations. Status: ok
+[160.018][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[164.958][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[164.958][INFO]: Waiting for pending navigations...
+[164.959][INFO]: Done waiting for pending navigations. Status: ok
+[164.967][INFO]: Waiting for pending navigations...
+[170.677][INFO]: Done waiting for pending navigations. Status: ok
+[170.677][INFO]: RESPONSE Navigate
+[175.686][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[175.688][INFO]: Waiting for pending navigations...
+[177.762][INFO]: Done waiting for pending navigations. Status: ok
+[177.774][INFO]: Waiting for pending navigations...
+[177.775][INFO]: Done waiting for pending navigations. Status: ok
+[177.775][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8612264063269162-1"
+}
+[177.777][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.8612264063269162-1"
+}
+[177.777][INFO]: Waiting for pending navigations...
+[177.778][INFO]: Done waiting for pending navigations. Status: ok
+[177.788][INFO]: Waiting for pending navigations...
+[177.789][INFO]: Done waiting for pending navigations. Status: ok
+[177.789][INFO]: RESPONSE IsElementDisplayed true
+[177.791][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[177.791][INFO]: Waiting for pending navigations...
+[177.791][INFO]: Done waiting for pending navigations. Status: ok
+[177.795][INFO]: Waiting for pending navigations...
+[177.796][INFO]: Done waiting for pending navigations. Status: ok
+[177.796][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.8612264063269162-1"
+}
+[177.798][INFO]: COMMAND MouseMove {
+   "element": "0.8612264063269162-1"
+}
+[177.798][INFO]: Waiting for pending navigations...
+[177.798][INFO]: Done waiting for pending navigations. Status: ok
+[177.810][INFO]: Waiting for pending navigations...
+[177.811][INFO]: Done waiting for pending navigations. Status: ok
+[177.811][INFO]: RESPONSE MouseMove
+[182.822][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[182.822][INFO]: Waiting for pending navigations...
+[182.824][INFO]: Done waiting for pending navigations. Status: ok
+[182.947][INFO]: Waiting for pending navigations...
+[182.948][INFO]: Done waiting for pending navigations. Status: ok
+[182.948][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[183.453][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[183.453][INFO]: Waiting for pending navigations...
+[183.455][INFO]: Done waiting for pending navigations. Status: ok
+[183.566][INFO]: Waiting for pending navigations...
+[183.567][INFO]: Done waiting for pending navigations. Status: ok
+[183.568][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[184.073][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[184.073][INFO]: Waiting for pending navigations...
+[184.075][INFO]: Done waiting for pending navigations. Status: ok
+[184.176][INFO]: Waiting for pending navigations...
+[184.176][INFO]: Done waiting for pending navigations. Status: ok
+[184.176][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[184.681][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[184.682][INFO]: Waiting for pending navigations...
+[184.684][INFO]: Done waiting for pending navigations. Status: ok
+[184.795][INFO]: Waiting for pending navigations...
+[184.802][INFO]: Done waiting for pending navigations. Status: ok
+[184.802][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[185.308][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[185.308][INFO]: Waiting for pending navigations...
+[185.311][INFO]: Done waiting for pending navigations. Status: ok
+[185.420][INFO]: Waiting for pending navigations...
+[185.420][INFO]: Done waiting for pending navigations. Status: ok
+[185.420][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[185.925][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[185.925][INFO]: Waiting for pending navigations...
+[185.927][INFO]: Done waiting for pending navigations. Status: ok
+[186.020][INFO]: Waiting for pending navigations...
+[186.028][INFO]: Done waiting for pending navigations. Status: ok
+[186.028][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[186.533][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[186.533][INFO]: Waiting for pending navigations...
+[186.535][INFO]: Done waiting for pending navigations. Status: ok
+[186.645][INFO]: Waiting for pending navigations...
+[186.647][INFO]: Done waiting for pending navigations. Status: ok
+[186.647][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[187.152][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[187.152][INFO]: Waiting for pending navigations...
+[187.157][INFO]: Done waiting for pending navigations. Status: ok
+[187.247][INFO]: Waiting for pending navigations...
+[187.248][INFO]: Done waiting for pending navigations. Status: ok
+[187.248][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[187.753][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[187.753][INFO]: Waiting for pending navigations...
+[187.755][INFO]: Done waiting for pending navigations. Status: ok
+[187.852][INFO]: Waiting for pending navigations...
+[187.852][INFO]: Done waiting for pending navigations. Status: ok
+[187.852][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[188.357][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[188.357][INFO]: Waiting for pending navigations...
+[188.359][INFO]: Done waiting for pending navigations. Status: ok
+[188.475][INFO]: Waiting for pending navigations...
+[188.482][INFO]: Done waiting for pending navigations. Status: ok
+[188.482][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[188.984][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[188.984][INFO]: Waiting for pending navigations...
+[188.985][INFO]: Done waiting for pending navigations. Status: ok
+[189.076][INFO]: Waiting for pending navigations...
+[189.076][INFO]: Done waiting for pending navigations. Status: ok
+[189.076][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[189.581][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[189.581][INFO]: Waiting for pending navigations...
+[189.584][INFO]: Done waiting for pending navigations. Status: ok
+[189.680][INFO]: Waiting for pending navigations...
+[189.680][INFO]: Done waiting for pending navigations. Status: ok
+[189.680][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[190.185][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[190.185][INFO]: Waiting for pending navigations...
+[190.187][INFO]: Done waiting for pending navigations. Status: ok
+[190.272][INFO]: Waiting for pending navigations...
+[190.281][INFO]: Done waiting for pending navigations. Status: ok
+[190.281][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[190.785][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[190.785][INFO]: Waiting for pending navigations...
+[190.787][INFO]: Done waiting for pending navigations. Status: ok
+[190.882][INFO]: Waiting for pending navigations...
+[190.883][INFO]: Done waiting for pending navigations. Status: ok
+[190.883][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[191.385][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[191.385][INFO]: Waiting for pending navigations...
+[191.386][INFO]: Done waiting for pending navigations. Status: ok
+[191.470][INFO]: Waiting for pending navigations...
+[191.471][INFO]: Done waiting for pending navigations. Status: ok
+[191.471][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[191.975][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[191.975][INFO]: Waiting for pending navigations...
+[191.976][INFO]: Done waiting for pending navigations. Status: ok
+[192.054][INFO]: Waiting for pending navigations...
+[192.063][INFO]: Done waiting for pending navigations. Status: ok
+[192.063][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[192.568][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[192.568][INFO]: Waiting for pending navigations...
+[192.571][INFO]: Done waiting for pending navigations. Status: ok
+[192.673][INFO]: Waiting for pending navigations...
+[192.674][INFO]: Done waiting for pending navigations. Status: ok
+[192.674][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[193.178][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[193.178][INFO]: Waiting for pending navigations...
+[193.182][INFO]: Done waiting for pending navigations. Status: ok
+[193.285][INFO]: Waiting for pending navigations...
+[193.286][INFO]: Done waiting for pending navigations. Status: ok
+[193.286][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[193.791][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[193.791][INFO]: Waiting for pending navigations...
+[193.793][INFO]: Done waiting for pending navigations. Status: ok
+[193.888][INFO]: Waiting for pending navigations...
+[193.888][INFO]: Done waiting for pending navigations. Status: ok
+[193.888][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[194.394][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[194.394][INFO]: Waiting for pending navigations...
+[194.396][INFO]: Done waiting for pending navigations. Status: ok
+[194.514][INFO]: Waiting for pending navigations...
+[194.517][INFO]: Done waiting for pending navigations. Status: ok
+[194.517][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[195.024][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[195.024][INFO]: Waiting for pending navigations...
+[195.027][INFO]: Done waiting for pending navigations. Status: ok
+[195.176][INFO]: Waiting for pending navigations...
+[195.182][INFO]: Done waiting for pending navigations. Status: ok
+[195.182][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[195.688][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[195.689][INFO]: Waiting for pending navigations...
+[195.691][INFO]: Done waiting for pending navigations. Status: ok
+[195.780][INFO]: Waiting for pending navigations...
+[195.780][INFO]: Done waiting for pending navigations. Status: ok
+[195.780][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[196.283][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[196.283][INFO]: Waiting for pending navigations...
+[196.284][INFO]: Done waiting for pending navigations. Status: ok
+[196.369][INFO]: Waiting for pending navigations...
+[196.370][INFO]: Done waiting for pending navigations. Status: ok
+[196.370][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[196.875][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[196.875][INFO]: Waiting for pending navigations...
+[196.877][INFO]: Done waiting for pending navigations. Status: ok
+[196.976][INFO]: Waiting for pending navigations...
+[196.986][INFO]: Done waiting for pending navigations. Status: ok
+[196.986][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[197.492][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[197.492][INFO]: Waiting for pending navigations...
+[197.494][INFO]: Done waiting for pending navigations. Status: ok
+[197.594][INFO]: Waiting for pending navigations...
+[197.602][INFO]: Done waiting for pending navigations. Status: ok
+[197.602][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[198.106][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[198.107][INFO]: Waiting for pending navigations...
+[198.109][INFO]: Done waiting for pending navigations. Status: ok
+[198.198][INFO]: Waiting for pending navigations...
+[198.198][INFO]: Done waiting for pending navigations. Status: ok
+[198.198][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[198.703][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[198.704][INFO]: Waiting for pending navigations...
+[198.706][INFO]: Done waiting for pending navigations. Status: ok
+[198.799][INFO]: Waiting for pending navigations...
+[198.802][INFO]: Done waiting for pending navigations. Status: ok
+[198.802][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[199.307][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[199.307][INFO]: Waiting for pending navigations...
+[199.309][INFO]: Done waiting for pending navigations. Status: ok
+[199.425][INFO]: Waiting for pending navigations...
+[199.425][INFO]: Done waiting for pending navigations. Status: ok
+[199.425][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[199.931][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[199.931][INFO]: Waiting for pending navigations...
+[199.933][INFO]: Done waiting for pending navigations. Status: ok
+[200.028][INFO]: Waiting for pending navigations...
+[200.037][INFO]: Done waiting for pending navigations. Status: ok
+[200.037][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[200.542][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[200.542][INFO]: Waiting for pending navigations...
+[200.544][INFO]: Done waiting for pending navigations. Status: ok
+[200.656][INFO]: Waiting for pending navigations...
+[200.656][INFO]: Done waiting for pending navigations. Status: ok
+[200.656][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[201.162][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[201.162][INFO]: Waiting for pending navigations...
+[201.164][INFO]: Done waiting for pending navigations. Status: ok
+[201.273][INFO]: Waiting for pending navigations...
+[201.280][INFO]: Done waiting for pending navigations. Status: ok
+[201.280][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[201.785][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[201.785][INFO]: Waiting for pending navigations...
+[201.787][INFO]: Done waiting for pending navigations. Status: ok
+[201.888][INFO]: Waiting for pending navigations...
+[201.889][INFO]: Done waiting for pending navigations. Status: ok
+[201.889][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[202.394][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[202.394][INFO]: Waiting for pending navigations...
+[202.396][INFO]: Done waiting for pending navigations. Status: ok
+[202.515][INFO]: Waiting for pending navigations...
+[202.517][INFO]: Done waiting for pending navigations. Status: ok
+[202.517][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[203.022][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[203.022][INFO]: Waiting for pending navigations...
+[203.024][INFO]: Done waiting for pending navigations. Status: ok
+[203.123][INFO]: Waiting for pending navigations...
+[203.135][INFO]: Done waiting for pending navigations. Status: ok
+[203.135][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[203.640][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[203.640][INFO]: Waiting for pending navigations...
+[203.643][INFO]: Done waiting for pending navigations. Status: ok
+[203.726][INFO]: Waiting for pending navigations...
+[203.727][INFO]: Done waiting for pending navigations. Status: ok
+[203.727][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[204.232][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[204.232][INFO]: Waiting for pending navigations...
+[204.235][INFO]: Done waiting for pending navigations. Status: ok
+[204.331][INFO]: Waiting for pending navigations...
+[204.337][INFO]: Done waiting for pending navigations. Status: ok
+[204.337][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[204.842][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[204.842][INFO]: Waiting for pending navigations...
+[204.845][INFO]: Done waiting for pending navigations. Status: ok
+[204.955][INFO]: Waiting for pending navigations...
+[204.956][INFO]: Done waiting for pending navigations. Status: ok
+[204.956][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[205.461][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[205.461][INFO]: Waiting for pending navigations...
+[205.463][INFO]: Done waiting for pending navigations. Status: ok
+[205.583][INFO]: Waiting for pending navigations...
+[205.589][INFO]: Done waiting for pending navigations. Status: ok
+[205.589][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[206.091][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[206.091][INFO]: Waiting for pending navigations...
+[206.092][INFO]: Done waiting for pending navigations. Status: ok
+[206.184][INFO]: Waiting for pending navigations...
+[206.184][INFO]: Done waiting for pending navigations. Status: ok
+[206.184][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[206.690][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[206.690][INFO]: Waiting for pending navigations...
+[206.692][INFO]: Done waiting for pending navigations. Status: ok
+[206.800][INFO]: Waiting for pending navigations...
+[206.800][INFO]: Done waiting for pending navigations. Status: ok
+[206.800][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[207.305][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[207.305][INFO]: Waiting for pending navigations...
+[207.308][INFO]: Done waiting for pending navigations. Status: ok
+[207.408][INFO]: Waiting for pending navigations...
+[207.416][INFO]: Done waiting for pending navigations. Status: ok
+[207.416][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[207.921][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[207.921][INFO]: Waiting for pending navigations...
+[207.923][INFO]: Done waiting for pending navigations. Status: ok
+[208.035][INFO]: Waiting for pending navigations...
+[208.044][INFO]: Done waiting for pending navigations. Status: ok
+[208.044][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[208.549][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[208.549][INFO]: Waiting for pending navigations...
+[208.551][INFO]: Done waiting for pending navigations. Status: ok
+[208.665][INFO]: Waiting for pending navigations...
+[208.665][INFO]: Done waiting for pending navigations. Status: ok
+[208.665][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[209.167][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[209.167][INFO]: Waiting for pending navigations...
+[209.169][INFO]: Done waiting for pending navigations. Status: ok
+[209.247][INFO]: Waiting for pending navigations...
+[209.249][INFO]: Done waiting for pending navigations. Status: ok
+[209.249][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[209.753][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[209.753][INFO]: Waiting for pending navigations...
+[209.755][INFO]: Done waiting for pending navigations. Status: ok
+[209.844][INFO]: Waiting for pending navigations...
+[209.850][INFO]: Done waiting for pending navigations. Status: ok
+[209.850][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[210.356][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[210.357][INFO]: Waiting for pending navigations...
+[210.359][INFO]: Done waiting for pending navigations. Status: ok
+[210.460][INFO]: Waiting for pending navigations...
+[210.468][INFO]: Done waiting for pending navigations. Status: ok
+[210.468][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[210.970][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[210.970][INFO]: Waiting for pending navigations...
+[210.971][INFO]: Done waiting for pending navigations. Status: ok
+[211.047][INFO]: Waiting for pending navigations...
+[211.048][INFO]: Done waiting for pending navigations. Status: ok
+[211.048][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[211.553][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[211.553][INFO]: Waiting for pending navigations...
+[211.556][INFO]: Done waiting for pending navigations. Status: ok
+[211.664][INFO]: Waiting for pending navigations...
+[211.671][INFO]: Done waiting for pending navigations. Status: ok
+[211.671][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[212.173][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[212.173][INFO]: Waiting for pending navigations...
+[212.174][INFO]: Done waiting for pending navigations. Status: ok
+[212.260][INFO]: Waiting for pending navigations...
+[212.260][INFO]: Done waiting for pending navigations. Status: ok
+[212.260][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[212.765][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[212.766][INFO]: Waiting for pending navigations...
+[212.768][INFO]: Done waiting for pending navigations. Status: ok
+[212.872][INFO]: Waiting for pending navigations...
+[212.873][INFO]: Done waiting for pending navigations. Status: ok
+[212.873][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[212.877][INFO]: COMMAND GetUrl {
+
+}
+[212.877][INFO]: Waiting for pending navigations...
+[212.879][INFO]: Done waiting for pending navigations. Status: ok
+[212.881][INFO]: Waiting for pending navigations...
+[212.882][INFO]: Done waiting for pending navigations. Status: ok
+[212.882][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[223.546][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[223.546][INFO]: Waiting for pending navigations...
+[223.547][INFO]: Done waiting for pending navigations. Status: ok
+[223.553][INFO]: Waiting for pending navigations...
+[232.627][INFO]: Done waiting for pending navigations. Status: ok
+[232.628][INFO]: RESPONSE Navigate
+[237.642][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[237.642][INFO]: Waiting for pending navigations...
+[237.646][INFO]: Done waiting for pending navigations. Status: ok
+[237.673][INFO]: Waiting for pending navigations...
+[237.673][INFO]: Done waiting for pending navigations. Status: ok
+[237.673][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35231274047660066-1"
+}
+[237.675][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.35231274047660066-1"
+}
+[237.675][INFO]: Waiting for pending navigations...
+[237.676][INFO]: Done waiting for pending navigations. Status: ok
+[237.686][INFO]: Waiting for pending navigations...
+[237.686][INFO]: Done waiting for pending navigations. Status: ok
+[237.686][INFO]: RESPONSE IsElementDisplayed true
+[237.688][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[237.688][INFO]: Waiting for pending navigations...
+[237.689][INFO]: Done waiting for pending navigations. Status: ok
+[237.693][INFO]: Waiting for pending navigations...
+[237.693][INFO]: Done waiting for pending navigations. Status: ok
+[237.693][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35231274047660066-1"
+}
+[237.695][INFO]: COMMAND MouseMove {
+   "element": "0.35231274047660066-1"
+}
+[237.695][INFO]: Waiting for pending navigations...
+[237.696][INFO]: Done waiting for pending navigations. Status: ok
+[237.709][INFO]: Waiting for pending navigations...
+[237.710][INFO]: Done waiting for pending navigations. Status: ok
+[237.710][INFO]: RESPONSE MouseMove
+[242.722][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[242.723][INFO]: Waiting for pending navigations...
+[242.726][INFO]: Done waiting for pending navigations. Status: ok
+[242.828][INFO]: Waiting for pending navigations...
+[242.828][INFO]: Done waiting for pending navigations. Status: ok
+[242.828][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[243.333][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[243.333][INFO]: Waiting for pending navigations...
+[243.335][INFO]: Done waiting for pending navigations. Status: ok
+[243.444][INFO]: Waiting for pending navigations...
+[243.446][INFO]: Done waiting for pending navigations. Status: ok
+[243.446][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[243.959][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[243.959][INFO]: Waiting for pending navigations...
+[243.969][INFO]: Done waiting for pending navigations. Status: ok
+[244.045][INFO]: Waiting for pending navigations...
+[244.045][INFO]: Done waiting for pending navigations. Status: ok
+[244.045][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[244.551][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[244.551][INFO]: Waiting for pending navigations...
+[244.553][INFO]: Done waiting for pending navigations. Status: ok
+[244.660][INFO]: Waiting for pending navigations...
+[244.668][INFO]: Done waiting for pending navigations. Status: ok
+[244.668][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[245.173][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[245.174][INFO]: Waiting for pending navigations...
+[245.176][INFO]: Done waiting for pending navigations. Status: ok
+[245.321][INFO]: Waiting for pending navigations...
+[245.329][INFO]: Done waiting for pending navigations. Status: ok
+[245.329][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[245.835][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[245.835][INFO]: Waiting for pending navigations...
+[245.837][INFO]: Done waiting for pending navigations. Status: ok
+[245.934][INFO]: Waiting for pending navigations...
+[245.935][INFO]: Done waiting for pending navigations. Status: ok
+[245.935][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[246.439][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[246.440][INFO]: Waiting for pending navigations...
+[246.442][INFO]: Done waiting for pending navigations. Status: ok
+[246.578][INFO]: Waiting for pending navigations...
+[246.581][INFO]: Done waiting for pending navigations. Status: ok
+[246.581][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[247.085][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[247.085][INFO]: Waiting for pending navigations...
+[247.088][INFO]: Done waiting for pending navigations. Status: ok
+[247.181][INFO]: Waiting for pending navigations...
+[247.181][INFO]: Done waiting for pending navigations. Status: ok
+[247.181][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[247.684][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[247.684][INFO]: Waiting for pending navigations...
+[247.685][INFO]: Done waiting for pending navigations. Status: ok
+[247.756][INFO]: Waiting for pending navigations...
+[247.764][INFO]: Done waiting for pending navigations. Status: ok
+[247.764][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[248.267][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[248.267][INFO]: Waiting for pending navigations...
+[248.268][INFO]: Done waiting for pending navigations. Status: ok
+[248.346][INFO]: Waiting for pending navigations...
+[248.347][INFO]: Done waiting for pending navigations. Status: ok
+[248.347][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[248.851][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[248.852][INFO]: Waiting for pending navigations...
+[248.854][INFO]: Done waiting for pending navigations. Status: ok
+[248.956][INFO]: Waiting for pending navigations...
+[248.964][INFO]: Done waiting for pending navigations. Status: ok
+[248.964][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[249.469][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[249.470][INFO]: Waiting for pending navigations...
+[249.472][INFO]: Done waiting for pending navigations. Status: ok
+[249.570][INFO]: Waiting for pending navigations...
+[249.571][INFO]: Done waiting for pending navigations. Status: ok
+[249.571][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[250.076][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[250.076][INFO]: Waiting for pending navigations...
+[250.078][INFO]: Done waiting for pending navigations. Status: ok
+[250.181][INFO]: Waiting for pending navigations...
+[250.184][INFO]: Done waiting for pending navigations. Status: ok
+[250.184][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[250.689][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[250.689][INFO]: Waiting for pending navigations...
+[250.691][INFO]: Done waiting for pending navigations. Status: ok
+[250.787][INFO]: Waiting for pending navigations...
+[250.787][INFO]: Done waiting for pending navigations. Status: ok
+[250.787][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[251.292][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[251.292][INFO]: Waiting for pending navigations...
+[251.294][INFO]: Done waiting for pending navigations. Status: ok
+[251.383][INFO]: Waiting for pending navigations...
+[251.384][INFO]: Done waiting for pending navigations. Status: ok
+[251.384][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[251.889][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[251.889][INFO]: Waiting for pending navigations...
+[251.891][INFO]: Done waiting for pending navigations. Status: ok
+[251.981][INFO]: Waiting for pending navigations...
+[251.989][INFO]: Done waiting for pending navigations. Status: ok
+[251.989][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[252.495][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[252.495][INFO]: Waiting for pending navigations...
+[252.497][INFO]: Done waiting for pending navigations. Status: ok
+[252.615][INFO]: Waiting for pending navigations...
+[252.622][INFO]: Done waiting for pending navigations. Status: ok
+[252.622][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[253.127][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[253.127][INFO]: Waiting for pending navigations...
+[253.129][INFO]: Done waiting for pending navigations. Status: ok
+[253.245][INFO]: Waiting for pending navigations...
+[253.245][INFO]: Done waiting for pending navigations. Status: ok
+[253.245][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[253.750][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[253.750][INFO]: Waiting for pending navigations...
+[253.752][INFO]: Done waiting for pending navigations. Status: ok
+[253.843][INFO]: Waiting for pending navigations...
+[253.850][INFO]: Done waiting for pending navigations. Status: ok
+[253.850][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[254.356][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[254.356][INFO]: Waiting for pending navigations...
+[254.358][INFO]: Done waiting for pending navigations. Status: ok
+[254.466][INFO]: Waiting for pending navigations...
+[254.467][INFO]: Done waiting for pending navigations. Status: ok
+[254.467][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[254.972][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[254.972][INFO]: Waiting for pending navigations...
+[254.974][INFO]: Done waiting for pending navigations. Status: ok
+[255.047][INFO]: Waiting for pending navigations...
+[255.047][INFO]: Done waiting for pending navigations. Status: ok
+[255.047][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[255.552][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[255.552][INFO]: Waiting for pending navigations...
+[255.554][INFO]: Done waiting for pending navigations. Status: ok
+[255.671][INFO]: Waiting for pending navigations...
+[255.672][INFO]: Done waiting for pending navigations. Status: ok
+[255.672][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[256.177][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[256.177][INFO]: Waiting for pending navigations...
+[256.179][INFO]: Done waiting for pending navigations. Status: ok
+[256.276][INFO]: Waiting for pending navigations...
+[256.277][INFO]: Done waiting for pending navigations. Status: ok
+[256.277][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[256.782][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[256.782][INFO]: Waiting for pending navigations...
+[256.784][INFO]: Done waiting for pending navigations. Status: ok
+[256.870][INFO]: Waiting for pending navigations...
+[256.870][INFO]: Done waiting for pending navigations. Status: ok
+[256.870][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[257.375][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[257.375][INFO]: Waiting for pending navigations...
+[257.377][INFO]: Done waiting for pending navigations. Status: ok
+[257.477][INFO]: Waiting for pending navigations...
+[257.485][INFO]: Done waiting for pending navigations. Status: ok
+[257.485][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[257.991][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[257.991][INFO]: Waiting for pending navigations...
+[257.993][INFO]: Done waiting for pending navigations. Status: ok
+[258.102][INFO]: Waiting for pending navigations...
+[258.102][INFO]: Done waiting for pending navigations. Status: ok
+[258.102][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[258.607][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[258.607][INFO]: Waiting for pending navigations...
+[258.609][INFO]: Done waiting for pending navigations. Status: ok
+[258.702][INFO]: Waiting for pending navigations...
+[258.710][INFO]: Done waiting for pending navigations. Status: ok
+[258.710][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[259.213][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[259.213][INFO]: Waiting for pending navigations...
+[259.213][INFO]: Done waiting for pending navigations. Status: ok
+[259.305][INFO]: Waiting for pending navigations...
+[259.306][INFO]: Done waiting for pending navigations. Status: ok
+[259.306][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[259.812][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[259.812][INFO]: Waiting for pending navigations...
+[259.814][INFO]: Done waiting for pending navigations. Status: ok
+[259.909][INFO]: Waiting for pending navigations...
+[259.915][INFO]: Done waiting for pending navigations. Status: ok
+[259.915][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[260.417][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[260.417][INFO]: Waiting for pending navigations...
+[260.419][INFO]: Done waiting for pending navigations. Status: ok
+[260.496][INFO]: Waiting for pending navigations...
+[260.497][INFO]: Done waiting for pending navigations. Status: ok
+[260.497][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[261.010][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[261.010][INFO]: Waiting for pending navigations...
+[261.012][INFO]: Done waiting for pending navigations. Status: ok
+[261.110][INFO]: Waiting for pending navigations...
+[261.110][INFO]: Done waiting for pending navigations. Status: ok
+[261.110][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[261.621][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[261.621][INFO]: Waiting for pending navigations...
+[261.623][INFO]: Done waiting for pending navigations. Status: ok
+[261.706][INFO]: Waiting for pending navigations...
+[261.707][INFO]: Done waiting for pending navigations. Status: ok
+[261.707][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[262.212][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[262.212][INFO]: Waiting for pending navigations...
+[262.214][INFO]: Done waiting for pending navigations. Status: ok
+[262.310][INFO]: Waiting for pending navigations...
+[262.318][INFO]: Done waiting for pending navigations. Status: ok
+[262.318][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[262.822][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[262.822][INFO]: Waiting for pending navigations...
+[262.823][INFO]: Done waiting for pending navigations. Status: ok
+[262.918][INFO]: Waiting for pending navigations...
+[262.919][INFO]: Done waiting for pending navigations. Status: ok
+[262.919][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[263.424][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[263.424][INFO]: Waiting for pending navigations...
+[263.427][INFO]: Done waiting for pending navigations. Status: ok
+[263.538][INFO]: Waiting for pending navigations...
+[263.541][INFO]: Done waiting for pending navigations. Status: ok
+[263.541][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[264.045][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[264.045][INFO]: Waiting for pending navigations...
+[264.046][INFO]: Done waiting for pending navigations. Status: ok
+[264.155][INFO]: Waiting for pending navigations...
+[264.156][INFO]: Done waiting for pending navigations. Status: ok
+[264.156][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[264.660][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[264.660][INFO]: Waiting for pending navigations...
+[264.663][INFO]: Done waiting for pending navigations. Status: ok
+[264.769][INFO]: Waiting for pending navigations...
+[264.770][INFO]: Done waiting for pending navigations. Status: ok
+[264.770][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[265.275][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[265.275][INFO]: Waiting for pending navigations...
+[265.277][INFO]: Done waiting for pending navigations. Status: ok
+[265.370][INFO]: Waiting for pending navigations...
+[265.370][INFO]: Done waiting for pending navigations. Status: ok
+[265.370][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[265.872][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[265.872][INFO]: Waiting for pending navigations...
+[265.873][INFO]: Done waiting for pending navigations. Status: ok
+[265.951][INFO]: Waiting for pending navigations...
+[265.952][INFO]: Done waiting for pending navigations. Status: ok
+[265.952][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[266.456][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[266.456][INFO]: Waiting for pending navigations...
+[266.458][INFO]: Done waiting for pending navigations. Status: ok
+[266.547][INFO]: Waiting for pending navigations...
+[266.548][INFO]: Done waiting for pending navigations. Status: ok
+[266.548][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[267.053][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[267.053][INFO]: Waiting for pending navigations...
+[267.056][INFO]: Done waiting for pending navigations. Status: ok
+[267.164][INFO]: Waiting for pending navigations...
+[267.165][INFO]: Done waiting for pending navigations. Status: ok
+[267.165][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[267.671][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[267.671][INFO]: Waiting for pending navigations...
+[267.673][INFO]: Done waiting for pending navigations. Status: ok
+[267.803][INFO]: Waiting for pending navigations...
+[267.805][INFO]: Done waiting for pending navigations. Status: ok
+[267.805][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[268.310][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[268.311][INFO]: Waiting for pending navigations...
+[268.313][INFO]: Done waiting for pending navigations. Status: ok
+[268.433][INFO]: Waiting for pending navigations...
+[268.433][INFO]: Done waiting for pending navigations. Status: ok
+[268.433][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[268.938][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[268.938][INFO]: Waiting for pending navigations...
+[268.941][INFO]: Done waiting for pending navigations. Status: ok
+[269.048][INFO]: Waiting for pending navigations...
+[269.057][INFO]: Done waiting for pending navigations. Status: ok
+[269.057][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[269.561][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[269.561][INFO]: Waiting for pending navigations...
+[269.564][INFO]: Done waiting for pending navigations. Status: ok
+[269.660][INFO]: Waiting for pending navigations...
+[269.661][INFO]: Done waiting for pending navigations. Status: ok
+[269.661][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[270.165][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[270.166][INFO]: Waiting for pending navigations...
+[270.168][INFO]: Done waiting for pending navigations. Status: ok
+[270.259][INFO]: Waiting for pending navigations...
+[270.260][INFO]: Done waiting for pending navigations. Status: ok
+[270.260][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[270.764][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[270.764][INFO]: Waiting for pending navigations...
+[270.766][INFO]: Done waiting for pending navigations. Status: ok
+[270.851][INFO]: Waiting for pending navigations...
+[270.859][INFO]: Done waiting for pending navigations. Status: ok
+[270.859][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[271.364][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[271.364][INFO]: Waiting for pending navigations...
+[271.366][INFO]: Done waiting for pending navigations. Status: ok
+[271.455][INFO]: Waiting for pending navigations...
+[271.456][INFO]: Done waiting for pending navigations. Status: ok
+[271.456][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[271.962][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[271.962][INFO]: Waiting for pending navigations...
+[271.964][INFO]: Done waiting for pending navigations. Status: ok
+[272.059][INFO]: Waiting for pending navigations...
+[272.061][INFO]: Done waiting for pending navigations. Status: ok
+[272.061][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[272.567][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[272.567][INFO]: Waiting for pending navigations...
+[272.569][INFO]: Done waiting for pending navigations. Status: ok
+[272.677][INFO]: Waiting for pending navigations...
+[272.682][INFO]: Done waiting for pending navigations. Status: ok
+[272.682][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[273.187][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[273.187][INFO]: Waiting for pending navigations...
+[273.189][INFO]: Done waiting for pending navigations. Status: ok
+[273.286][INFO]: Waiting for pending navigations...
+[273.286][INFO]: Done waiting for pending navigations. Status: ok
+[273.286][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[273.289][INFO]: COMMAND GetUrl {
+
+}
+[273.289][INFO]: Waiting for pending navigations...
+[273.290][INFO]: Done waiting for pending navigations. Status: ok
+[273.292][INFO]: Waiting for pending navigations...
+[273.292][INFO]: Done waiting for pending navigations. Status: ok
+[273.292][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[425.283][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[425.283][INFO]: Waiting for pending navigations...
+[425.284][INFO]: Done waiting for pending navigations. Status: ok
+[425.291][INFO]: Waiting for pending navigations...
+[431.180][INFO]: Done waiting for pending navigations. Status: ok
+[431.180][INFO]: RESPONSE Navigate
+[436.186][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[436.188][INFO]: Waiting for pending navigations...
+[436.189][INFO]: Done waiting for pending navigations. Status: ok
+[436.202][INFO]: Waiting for pending navigations...
+[436.204][INFO]: Done waiting for pending navigations. Status: ok
+[436.204][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6913472646500416-1"
+}
+[436.206][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.6913472646500416-1"
+}
+[436.206][INFO]: Waiting for pending navigations...
+[436.207][INFO]: Done waiting for pending navigations. Status: ok
+[436.218][INFO]: Waiting for pending navigations...
+[436.219][INFO]: Done waiting for pending navigations. Status: ok
+[436.219][INFO]: RESPONSE IsElementDisplayed true
+[436.222][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[436.222][INFO]: Waiting for pending navigations...
+[436.222][INFO]: Done waiting for pending navigations. Status: ok
+[436.227][INFO]: Waiting for pending navigations...
+[436.228][INFO]: Done waiting for pending navigations. Status: ok
+[436.228][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6913472646500416-1"
+}
+[436.230][INFO]: COMMAND MouseMove {
+   "element": "0.6913472646500416-1"
+}
+[436.230][INFO]: Waiting for pending navigations...
+[436.231][INFO]: Done waiting for pending navigations. Status: ok
+[436.244][INFO]: Waiting for pending navigations...
+[436.245][INFO]: Done waiting for pending navigations. Status: ok
+[436.245][INFO]: RESPONSE MouseMove
+[441.256][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[441.256][INFO]: Waiting for pending navigations...
+[441.260][INFO]: Done waiting for pending navigations. Status: ok
+[441.377][INFO]: Waiting for pending navigations...
+[441.379][INFO]: Done waiting for pending navigations. Status: ok
+[441.379][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[441.882][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[441.882][INFO]: Waiting for pending navigations...
+[441.884][INFO]: Done waiting for pending navigations. Status: ok
+[441.989][INFO]: Waiting for pending navigations...
+[441.989][INFO]: Done waiting for pending navigations. Status: ok
+[441.989][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[442.493][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[442.493][INFO]: Waiting for pending navigations...
+[442.495][INFO]: Done waiting for pending navigations. Status: ok
+[442.616][INFO]: Waiting for pending navigations...
+[442.616][INFO]: Done waiting for pending navigations. Status: ok
+[442.616][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[443.121][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[443.121][INFO]: Waiting for pending navigations...
+[443.122][INFO]: Done waiting for pending navigations. Status: ok
+[443.225][INFO]: Waiting for pending navigations...
+[443.226][INFO]: Done waiting for pending navigations. Status: ok
+[443.226][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[443.730][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[443.730][INFO]: Waiting for pending navigations...
+[443.732][INFO]: Done waiting for pending navigations. Status: ok
+[443.826][INFO]: Waiting for pending navigations...
+[443.828][INFO]: Done waiting for pending navigations. Status: ok
+[443.828][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[444.333][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[444.333][INFO]: Waiting for pending navigations...
+[444.335][INFO]: Done waiting for pending navigations. Status: ok
+[444.440][INFO]: Waiting for pending navigations...
+[444.440][INFO]: Done waiting for pending navigations. Status: ok
+[444.440][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[444.945][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[444.945][INFO]: Waiting for pending navigations...
+[444.946][INFO]: Done waiting for pending navigations. Status: ok
+[445.045][INFO]: Waiting for pending navigations...
+[445.045][INFO]: Done waiting for pending navigations. Status: ok
+[445.045][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[445.551][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[445.551][INFO]: Waiting for pending navigations...
+[445.553][INFO]: Done waiting for pending navigations. Status: ok
+[445.668][INFO]: Waiting for pending navigations...
+[445.677][INFO]: Done waiting for pending navigations. Status: ok
+[445.677][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[446.182][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[446.182][INFO]: Waiting for pending navigations...
+[446.184][INFO]: Done waiting for pending navigations. Status: ok
+[446.295][INFO]: Waiting for pending navigations...
+[446.296][INFO]: Done waiting for pending navigations. Status: ok
+[446.296][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[446.801][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[446.801][INFO]: Waiting for pending navigations...
+[446.803][INFO]: Done waiting for pending navigations. Status: ok
+[446.938][INFO]: Waiting for pending navigations...
+[446.948][INFO]: Done waiting for pending navigations. Status: ok
+[446.948][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[447.451][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[447.451][INFO]: Waiting for pending navigations...
+[447.452][INFO]: Done waiting for pending navigations. Status: ok
+[447.543][INFO]: Waiting for pending navigations...
+[447.544][INFO]: Done waiting for pending navigations. Status: ok
+[447.544][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[448.046][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[448.046][INFO]: Waiting for pending navigations...
+[448.047][INFO]: Done waiting for pending navigations. Status: ok
+[448.156][INFO]: Waiting for pending navigations...
+[448.156][INFO]: Done waiting for pending navigations. Status: ok
+[448.156][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[448.661][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[448.661][INFO]: Waiting for pending navigations...
+[448.663][INFO]: Done waiting for pending navigations. Status: ok
+[448.772][INFO]: Waiting for pending navigations...
+[448.773][INFO]: Done waiting for pending navigations. Status: ok
+[448.773][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[449.275][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[449.275][INFO]: Waiting for pending navigations...
+[449.276][INFO]: Done waiting for pending navigations. Status: ok
+[449.370][INFO]: Waiting for pending navigations...
+[449.371][INFO]: Done waiting for pending navigations. Status: ok
+[449.371][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[449.876][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[449.876][INFO]: Waiting for pending navigations...
+[449.878][INFO]: Done waiting for pending navigations. Status: ok
+[449.990][INFO]: Waiting for pending navigations...
+[449.998][INFO]: Done waiting for pending navigations. Status: ok
+[449.998][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[450.503][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[450.503][INFO]: Waiting for pending navigations...
+[450.505][INFO]: Done waiting for pending navigations. Status: ok
+[450.624][INFO]: Waiting for pending navigations...
+[450.625][INFO]: Done waiting for pending navigations. Status: ok
+[450.625][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[451.130][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[451.130][INFO]: Waiting for pending navigations...
+[451.132][INFO]: Done waiting for pending navigations. Status: ok
+[451.269][INFO]: Waiting for pending navigations...
+[451.269][INFO]: Done waiting for pending navigations. Status: ok
+[451.269][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[451.774][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[451.774][INFO]: Waiting for pending navigations...
+[451.776][INFO]: Done waiting for pending navigations. Status: ok
+[451.888][INFO]: Waiting for pending navigations...
+[451.889][INFO]: Done waiting for pending navigations. Status: ok
+[451.889][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[452.394][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[452.394][INFO]: Waiting for pending navigations...
+[452.397][INFO]: Done waiting for pending navigations. Status: ok
+[452.521][INFO]: Waiting for pending navigations...
+[452.521][INFO]: Done waiting for pending navigations. Status: ok
+[452.522][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[453.026][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[453.026][INFO]: Waiting for pending navigations...
+[453.028][INFO]: Done waiting for pending navigations. Status: ok
+[453.144][INFO]: Waiting for pending navigations...
+[453.145][INFO]: Done waiting for pending navigations. Status: ok
+[453.145][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[453.650][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[453.650][INFO]: Waiting for pending navigations...
+[453.652][INFO]: Done waiting for pending navigations. Status: ok
+[453.765][INFO]: Waiting for pending navigations...
+[453.773][INFO]: Done waiting for pending navigations. Status: ok
+[453.773][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[454.278][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[454.278][INFO]: Waiting for pending navigations...
+[454.280][INFO]: Done waiting for pending navigations. Status: ok
+[454.379][INFO]: Waiting for pending navigations...
+[454.380][INFO]: Done waiting for pending navigations. Status: ok
+[454.380][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[454.885][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[454.885][INFO]: Waiting for pending navigations...
+[454.887][INFO]: Done waiting for pending navigations. Status: ok
+[455.019][INFO]: Waiting for pending navigations...
+[455.020][INFO]: Done waiting for pending navigations. Status: ok
+[455.020][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[455.524][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[455.524][INFO]: Waiting for pending navigations...
+[455.527][INFO]: Done waiting for pending navigations. Status: ok
+[455.656][INFO]: Waiting for pending navigations...
+[455.662][INFO]: Done waiting for pending navigations. Status: ok
+[455.662][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[456.164][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[456.164][INFO]: Waiting for pending navigations...
+[456.164][INFO]: Done waiting for pending navigations. Status: ok
+[456.261][INFO]: Waiting for pending navigations...
+[456.262][INFO]: Done waiting for pending navigations. Status: ok
+[456.262][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[456.767][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[456.767][INFO]: Waiting for pending navigations...
+[456.769][INFO]: Done waiting for pending navigations. Status: ok
+[456.864][INFO]: Waiting for pending navigations...
+[456.872][INFO]: Done waiting for pending navigations. Status: ok
+[456.872][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[457.377][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[457.377][INFO]: Waiting for pending navigations...
+[457.380][INFO]: Done waiting for pending navigations. Status: ok
+[457.473][INFO]: Waiting for pending navigations...
+[457.474][INFO]: Done waiting for pending navigations. Status: ok
+[457.474][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[457.978][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[457.978][INFO]: Waiting for pending navigations...
+[457.980][INFO]: Done waiting for pending navigations. Status: ok
+[458.068][INFO]: Waiting for pending navigations...
+[458.069][INFO]: Done waiting for pending navigations. Status: ok
+[458.069][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[458.574][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[458.574][INFO]: Waiting for pending navigations...
+[458.576][INFO]: Done waiting for pending navigations. Status: ok
+[458.694][INFO]: Waiting for pending navigations...
+[458.695][INFO]: Done waiting for pending navigations. Status: ok
+[458.695][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[459.197][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[459.197][INFO]: Waiting for pending navigations...
+[459.198][INFO]: Done waiting for pending navigations. Status: ok
+[459.282][INFO]: Waiting for pending navigations...
+[459.283][INFO]: Done waiting for pending navigations. Status: ok
+[459.283][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[459.785][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[459.785][INFO]: Waiting for pending navigations...
+[459.786][INFO]: Done waiting for pending navigations. Status: ok
+[459.883][INFO]: Waiting for pending navigations...
+[459.883][INFO]: Done waiting for pending navigations. Status: ok
+[459.883][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[460.388][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[460.388][INFO]: Waiting for pending navigations...
+[460.391][INFO]: Done waiting for pending navigations. Status: ok
+[460.518][INFO]: Waiting for pending navigations...
+[460.519][INFO]: Done waiting for pending navigations. Status: ok
+[460.519][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[461.023][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[461.023][INFO]: Waiting for pending navigations...
+[461.026][INFO]: Done waiting for pending navigations. Status: ok
+[461.177][INFO]: Waiting for pending navigations...
+[461.178][INFO]: Done waiting for pending navigations. Status: ok
+[461.178][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[461.682][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[461.682][INFO]: Waiting for pending navigations...
+[461.685][INFO]: Done waiting for pending navigations. Status: ok
+[461.802][INFO]: Waiting for pending navigations...
+[461.809][INFO]: Done waiting for pending navigations. Status: ok
+[461.809][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[462.314][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[462.314][INFO]: Waiting for pending navigations...
+[462.316][INFO]: Done waiting for pending navigations. Status: ok
+[462.447][INFO]: Waiting for pending navigations...
+[462.447][INFO]: Done waiting for pending navigations. Status: ok
+[462.448][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[462.953][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[462.954][INFO]: Waiting for pending navigations...
+[462.956][INFO]: Done waiting for pending navigations. Status: ok
+[463.073][INFO]: Waiting for pending navigations...
+[463.074][INFO]: Done waiting for pending navigations. Status: ok
+[463.074][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[463.578][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[463.578][INFO]: Waiting for pending navigations...
+[463.581][INFO]: Done waiting for pending navigations. Status: ok
+[463.701][INFO]: Waiting for pending navigations...
+[463.702][INFO]: Done waiting for pending navigations. Status: ok
+[463.702][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[464.206][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[464.206][INFO]: Waiting for pending navigations...
+[464.208][INFO]: Done waiting for pending navigations. Status: ok
+[464.302][INFO]: Waiting for pending navigations...
+[464.310][INFO]: Done waiting for pending navigations. Status: ok
+[464.310][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[464.815][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[464.815][INFO]: Waiting for pending navigations...
+[464.818][INFO]: Done waiting for pending navigations. Status: ok
+[464.933][INFO]: Waiting for pending navigations...
+[464.934][INFO]: Done waiting for pending navigations. Status: ok
+[464.934][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[465.436][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[465.436][INFO]: Waiting for pending navigations...
+[465.437][INFO]: Done waiting for pending navigations. Status: ok
+[465.519][INFO]: Waiting for pending navigations...
+[465.519][INFO]: Done waiting for pending navigations. Status: ok
+[465.519][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[466.024][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[466.024][INFO]: Waiting for pending navigations...
+[466.026][INFO]: Done waiting for pending navigations. Status: ok
+[466.134][INFO]: Waiting for pending navigations...
+[466.135][INFO]: Done waiting for pending navigations. Status: ok
+[466.135][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[466.639][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[466.640][INFO]: Waiting for pending navigations...
+[466.642][INFO]: Done waiting for pending navigations. Status: ok
+[466.763][INFO]: Waiting for pending navigations...
+[466.763][INFO]: Done waiting for pending navigations. Status: ok
+[466.763][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[467.268][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[467.268][INFO]: Waiting for pending navigations...
+[467.270][INFO]: Done waiting for pending navigations. Status: ok
+[467.389][INFO]: Waiting for pending navigations...
+[467.390][INFO]: Done waiting for pending navigations. Status: ok
+[467.390][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[467.894][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[467.895][INFO]: Waiting for pending navigations...
+[467.897][INFO]: Done waiting for pending navigations. Status: ok
+[468.013][INFO]: Waiting for pending navigations...
+[468.020][INFO]: Done waiting for pending navigations. Status: ok
+[468.021][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[468.526][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[468.526][INFO]: Waiting for pending navigations...
+[468.528][INFO]: Done waiting for pending navigations. Status: ok
+[468.686][INFO]: Waiting for pending navigations...
+[468.686][INFO]: Done waiting for pending navigations. Status: ok
+[468.687][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[469.192][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[469.192][INFO]: Waiting for pending navigations...
+[469.194][INFO]: Done waiting for pending navigations. Status: ok
+[469.306][INFO]: Waiting for pending navigations...
+[469.307][INFO]: Done waiting for pending navigations. Status: ok
+[469.307][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[469.811][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[469.811][INFO]: Waiting for pending navigations...
+[469.813][INFO]: Done waiting for pending navigations. Status: ok
+[469.915][INFO]: Waiting for pending navigations...
+[469.916][INFO]: Done waiting for pending navigations. Status: ok
+[469.916][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[470.421][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[470.421][INFO]: Waiting for pending navigations...
+[470.423][INFO]: Done waiting for pending navigations. Status: ok
+[470.541][INFO]: Waiting for pending navigations...
+[470.547][INFO]: Done waiting for pending navigations. Status: ok
+[470.547][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[471.052][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[471.052][INFO]: Waiting for pending navigations...
+[471.054][INFO]: Done waiting for pending navigations. Status: ok
+[471.173][INFO]: Waiting for pending navigations...
+[471.174][INFO]: Done waiting for pending navigations. Status: ok
+[471.174][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[471.680][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[471.680][INFO]: Waiting for pending navigations...
+[471.683][INFO]: Done waiting for pending navigations. Status: ok
+[471.768][INFO]: Waiting for pending navigations...
+[471.769][INFO]: Done waiting for pending navigations. Status: ok
+[471.769][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[471.772][INFO]: COMMAND GetUrl {
+
+}
+[471.772][INFO]: Waiting for pending navigations...
+[471.773][INFO]: Done waiting for pending navigations. Status: ok
+[471.775][INFO]: Waiting for pending navigations...
+[471.775][INFO]: Done waiting for pending navigations. Status: ok
+[471.775][INFO]: RESPONSE GetUrl "http://novanetshoes-hmg03.ns2online.com.br/"
+[2487.455][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[2487.455][INFO]: Waiting for pending navigations...
+[2487.457][INFO]: Done waiting for pending navigations. Status: ok
+[2487.464][INFO]: Waiting for pending navigations...
+[2495.474][INFO]: Done waiting for pending navigations. Status: ok
+[2495.474][INFO]: RESPONSE Navigate
+[2500.478][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[2500.480][INFO]: Waiting for pending navigations...
+[2501.112][INFO]: Done waiting for pending navigations. Status: ok
+[2501.134][INFO]: Waiting for pending navigations...
+[2501.136][INFO]: Done waiting for pending navigations. Status: ok
+[2501.136][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35671578090981626-1"
+}
+[2501.139][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.35671578090981626-1"
+}
+[2501.139][INFO]: Waiting for pending navigations...
+[2501.139][INFO]: Done waiting for pending navigations. Status: ok
+[2501.150][INFO]: Waiting for pending navigations...
+[2501.150][INFO]: Done waiting for pending navigations. Status: ok
+[2501.151][INFO]: RESPONSE IsElementDisplayed true
+[2501.153][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[2501.153][INFO]: Waiting for pending navigations...
+[2501.153][INFO]: Done waiting for pending navigations. Status: ok
+[2501.157][INFO]: Waiting for pending navigations...
+[2501.157][INFO]: Done waiting for pending navigations. Status: ok
+[2501.157][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.35671578090981626-1"
+}
+[2501.159][INFO]: COMMAND MouseMove {
+   "element": "0.35671578090981626-1"
+}
+[2501.159][INFO]: Waiting for pending navigations...
+[2501.160][INFO]: Done waiting for pending navigations. Status: ok
+[2501.172][INFO]: Waiting for pending navigations...
+[2501.173][INFO]: Done waiting for pending navigations. Status: ok
+[2501.173][INFO]: RESPONSE MouseMove
+[2506.194][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2506.195][INFO]: Waiting for pending navigations...
+[2506.198][INFO]: Done waiting for pending navigations. Status: ok
+[2506.311][INFO]: Waiting for pending navigations...
+[2506.313][INFO]: Done waiting for pending navigations. Status: ok
+[2506.313][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2506.817][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2506.817][INFO]: Waiting for pending navigations...
+[2506.819][INFO]: Done waiting for pending navigations. Status: ok
+[2506.937][INFO]: Waiting for pending navigations...
+[2506.937][INFO]: Done waiting for pending navigations. Status: ok
+[2506.937][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2507.443][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2507.443][INFO]: Waiting for pending navigations...
+[2507.446][INFO]: Done waiting for pending navigations. Status: ok
+[2507.571][INFO]: Waiting for pending navigations...
+[2507.572][INFO]: Done waiting for pending navigations. Status: ok
+[2507.572][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2508.076][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2508.077][INFO]: Waiting for pending navigations...
+[2508.079][INFO]: Done waiting for pending navigations. Status: ok
+[2508.193][INFO]: Waiting for pending navigations...
+[2508.193][INFO]: Done waiting for pending navigations. Status: ok
+[2508.194][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2508.698][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2508.699][INFO]: Waiting for pending navigations...
+[2508.701][INFO]: Done waiting for pending navigations. Status: ok
+[2508.822][INFO]: Waiting for pending navigations...
+[2508.823][INFO]: Done waiting for pending navigations. Status: ok
+[2508.823][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2509.328][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2509.329][INFO]: Waiting for pending navigations...
+[2509.331][INFO]: Done waiting for pending navigations. Status: ok
+[2509.442][INFO]: Waiting for pending navigations...
+[2509.443][INFO]: Done waiting for pending navigations. Status: ok
+[2509.443][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2509.947][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2509.947][INFO]: Waiting for pending navigations...
+[2509.950][INFO]: Done waiting for pending navigations. Status: ok
+[2510.056][INFO]: Waiting for pending navigations...
+[2510.057][INFO]: Done waiting for pending navigations. Status: ok
+[2510.057][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2510.562][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2510.562][INFO]: Waiting for pending navigations...
+[2510.564][INFO]: Done waiting for pending navigations. Status: ok
+[2510.678][INFO]: Waiting for pending navigations...
+[2510.683][INFO]: Done waiting for pending navigations. Status: ok
+[2510.683][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2511.189][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2511.189][INFO]: Waiting for pending navigations...
+[2511.191][INFO]: Done waiting for pending navigations. Status: ok
+[2511.309][INFO]: Waiting for pending navigations...
+[2511.310][INFO]: Done waiting for pending navigations. Status: ok
+[2511.310][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2511.814][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2511.814][INFO]: Waiting for pending navigations...
+[2511.816][INFO]: Done waiting for pending navigations. Status: ok
+[2511.908][INFO]: Waiting for pending navigations...
+[2511.909][INFO]: Done waiting for pending navigations. Status: ok
+[2511.909][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2512.411][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2512.412][INFO]: Waiting for pending navigations...
+[2512.412][INFO]: Done waiting for pending navigations. Status: ok
+[2512.493][INFO]: Waiting for pending navigations...
+[2512.495][INFO]: Done waiting for pending navigations. Status: ok
+[2512.495][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2512.997][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2512.997][INFO]: Waiting for pending navigations...
+[2512.998][INFO]: Done waiting for pending navigations. Status: ok
+[2513.089][INFO]: Waiting for pending navigations...
+[2513.089][INFO]: Done waiting for pending navigations. Status: ok
+[2513.089][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2513.592][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2513.592][INFO]: Waiting for pending navigations...
+[2513.593][INFO]: Done waiting for pending navigations. Status: ok
+[2513.672][INFO]: Waiting for pending navigations...
+[2513.673][INFO]: Done waiting for pending navigations. Status: ok
+[2513.673][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2514.175][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2514.175][INFO]: Waiting for pending navigations...
+[2514.175][INFO]: Done waiting for pending navigations. Status: ok
+[2514.273][INFO]: Waiting for pending navigations...
+[2514.274][INFO]: Done waiting for pending navigations. Status: ok
+[2514.274][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2514.778][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2514.778][INFO]: Waiting for pending navigations...
+[2514.780][INFO]: Done waiting for pending navigations. Status: ok
+[2514.867][INFO]: Waiting for pending navigations...
+[2514.875][INFO]: Done waiting for pending navigations. Status: ok
+[2514.875][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2515.380][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2515.380][INFO]: Waiting for pending navigations...
+[2515.382][INFO]: Done waiting for pending navigations. Status: ok
+[2515.479][INFO]: Waiting for pending navigations...
+[2515.479][INFO]: Done waiting for pending navigations. Status: ok
+[2515.479][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2515.982][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2515.982][INFO]: Waiting for pending navigations...
+[2515.983][INFO]: Done waiting for pending navigations. Status: ok
+[2516.064][INFO]: Waiting for pending navigations...
+[2516.065][INFO]: Done waiting for pending navigations. Status: ok
+[2516.065][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2516.569][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2516.570][INFO]: Waiting for pending navigations...
+[2516.572][INFO]: Done waiting for pending navigations. Status: ok
+[2516.681][INFO]: Waiting for pending navigations...
+[2516.684][INFO]: Done waiting for pending navigations. Status: ok
+[2516.685][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2517.190][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2517.190][INFO]: Waiting for pending navigations...
+[2517.192][INFO]: Done waiting for pending navigations. Status: ok
+[2517.303][INFO]: Waiting for pending navigations...
+[2517.304][INFO]: Done waiting for pending navigations. Status: ok
+[2517.304][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2517.810][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2517.810][INFO]: Waiting for pending navigations...
+[2517.812][INFO]: Done waiting for pending navigations. Status: ok
+[2517.913][INFO]: Waiting for pending navigations...
+[2517.913][INFO]: Done waiting for pending navigations. Status: ok
+[2517.913][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2518.417][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2518.417][INFO]: Waiting for pending navigations...
+[2518.419][INFO]: Done waiting for pending navigations. Status: ok
+[2518.513][INFO]: Waiting for pending navigations...
+[2518.514][INFO]: Done waiting for pending navigations. Status: ok
+[2518.514][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2519.019][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2519.019][INFO]: Waiting for pending navigations...
+[2519.021][INFO]: Done waiting for pending navigations. Status: ok
+[2519.135][INFO]: Waiting for pending navigations...
+[2519.141][INFO]: Done waiting for pending navigations. Status: ok
+[2519.141][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2519.646][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2519.646][INFO]: Waiting for pending navigations...
+[2519.648][INFO]: Done waiting for pending navigations. Status: ok
+[2519.757][INFO]: Waiting for pending navigations...
+[2519.758][INFO]: Done waiting for pending navigations. Status: ok
+[2519.758][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2520.263][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2520.263][INFO]: Waiting for pending navigations...
+[2520.265][INFO]: Done waiting for pending navigations. Status: ok
+[2520.366][INFO]: Waiting for pending navigations...
+[2520.366][INFO]: Done waiting for pending navigations. Status: ok
+[2520.366][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2520.871][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2520.871][INFO]: Waiting for pending navigations...
+[2520.873][INFO]: Done waiting for pending navigations. Status: ok
+[2520.969][INFO]: Waiting for pending navigations...
+[2520.977][INFO]: Done waiting for pending navigations. Status: ok
+[2520.977][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2521.482][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2521.482][INFO]: Waiting for pending navigations...
+[2521.484][INFO]: Done waiting for pending navigations. Status: ok
+[2521.594][INFO]: Waiting for pending navigations...
+[2521.595][INFO]: Done waiting for pending navigations. Status: ok
+[2521.595][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2522.096][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2522.096][INFO]: Waiting for pending navigations...
+[2522.097][INFO]: Done waiting for pending navigations. Status: ok
+[2522.176][INFO]: Waiting for pending navigations...
+[2522.177][INFO]: Done waiting for pending navigations. Status: ok
+[2522.177][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2522.682][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2522.682][INFO]: Waiting for pending navigations...
+[2522.684][INFO]: Done waiting for pending navigations. Status: ok
+[2522.788][INFO]: Waiting for pending navigations...
+[2522.789][INFO]: Done waiting for pending navigations. Status: ok
+[2522.789][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2523.294][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2523.294][INFO]: Waiting for pending navigations...
+[2523.296][INFO]: Done waiting for pending navigations. Status: ok
+[2523.399][INFO]: Waiting for pending navigations...
+[2523.404][INFO]: Done waiting for pending navigations. Status: ok
+[2523.405][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2523.909][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2523.909][INFO]: Waiting for pending navigations...
+[2523.911][INFO]: Done waiting for pending navigations. Status: ok
+[2523.997][INFO]: Waiting for pending navigations...
+[2524.004][INFO]: Done waiting for pending navigations. Status: ok
+[2524.004][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2524.509][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2524.509][INFO]: Waiting for pending navigations...
+[2524.511][INFO]: Done waiting for pending navigations. Status: ok
+[2524.617][INFO]: Waiting for pending navigations...
+[2524.624][INFO]: Done waiting for pending navigations. Status: ok
+[2524.624][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2525.129][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2525.129][INFO]: Waiting for pending navigations...
+[2525.132][INFO]: Done waiting for pending navigations. Status: ok
+[2525.255][INFO]: Waiting for pending navigations...
+[2525.264][INFO]: Done waiting for pending navigations. Status: ok
+[2525.264][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2525.769][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2525.769][INFO]: Waiting for pending navigations...
+[2525.772][INFO]: Done waiting for pending navigations. Status: ok
+[2525.877][INFO]: Waiting for pending navigations...
+[2525.878][INFO]: Done waiting for pending navigations. Status: ok
+[2525.878][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2526.383][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2526.383][INFO]: Waiting for pending navigations...
+[2526.385][INFO]: Done waiting for pending navigations. Status: ok
+[2526.464][INFO]: Waiting for pending navigations...
+[2526.465][INFO]: Done waiting for pending navigations. Status: ok
+[2526.465][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2526.968][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2526.968][INFO]: Waiting for pending navigations...
+[2526.970][INFO]: Done waiting for pending navigations. Status: ok
+[2527.062][INFO]: Waiting for pending navigations...
+[2527.062][INFO]: Done waiting for pending navigations. Status: ok
+[2527.062][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2527.567][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2527.567][INFO]: Waiting for pending navigations...
+[2527.569][INFO]: Done waiting for pending navigations. Status: ok
+[2527.684][INFO]: Waiting for pending navigations...
+[2527.689][INFO]: Done waiting for pending navigations. Status: ok
+[2527.689][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2528.194][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2528.194][INFO]: Waiting for pending navigations...
+[2528.196][INFO]: Done waiting for pending navigations. Status: ok
+[2528.289][INFO]: Waiting for pending navigations...
+[2528.298][INFO]: Done waiting for pending navigations. Status: ok
+[2528.298][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2528.802][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2528.802][INFO]: Waiting for pending navigations...
+[2528.805][INFO]: Done waiting for pending navigations. Status: ok
+[2528.914][INFO]: Waiting for pending navigations...
+[2528.914][INFO]: Done waiting for pending navigations. Status: ok
+[2528.914][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2529.419][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2529.419][INFO]: Waiting for pending navigations...
+[2529.421][INFO]: Done waiting for pending navigations. Status: ok
+[2529.527][INFO]: Waiting for pending navigations...
+[2529.537][INFO]: Done waiting for pending navigations. Status: ok
+[2529.537][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2530.042][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2530.042][INFO]: Waiting for pending navigations...
+[2530.044][INFO]: Done waiting for pending navigations. Status: ok
+[2530.140][INFO]: Waiting for pending navigations...
+[2530.147][INFO]: Done waiting for pending navigations. Status: ok
+[2530.147][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2530.652][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2530.652][INFO]: Waiting for pending navigations...
+[2530.655][INFO]: Done waiting for pending navigations. Status: ok
+[2530.754][INFO]: Waiting for pending navigations...
+[2530.754][INFO]: Done waiting for pending navigations. Status: ok
+[2530.754][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2531.259][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[2531.259][INFO]: Waiting for pending navigations...
+[2531.262][INFO]: Done waiting for pending navigations. Status: ok
+[2531.377][INFO]: Waiting for pending navigations...
+[2531.378][INFO]: Done waiting for pending navigations. Status: ok
+[2531.378][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=58.0.3029.110)
+[2531.750][INFO]: COMMAND Quit {
+
+}
+[2531.879][INFO]: RESPONSE Quit

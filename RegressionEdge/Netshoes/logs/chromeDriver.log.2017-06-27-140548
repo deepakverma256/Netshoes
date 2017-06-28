@@ -1,0 +1,239 @@
+[1.089][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1.090][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1.091][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1.094][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir67272_23078\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12565 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DEEPAK~1.VER\AppData\Local\Temp\scoped_dir67272_10127" data:,
+[1.709][INFO]: resolved localhost to ["127.0.0.1"]
+[1.731][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)",
+      "userDataDir": "C:\\Users\\DEEPAK~1.VER\\AppData\\Local\\Temp\\scoped_dir67272_10127"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[1.747][INFO]: COMMAND SetTimeout {
+   "ms": 60000,
+   "type": "page load"
+}
+[1.747][INFO]: RESPONSE SetTimeout
+[1.752][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[1.752][INFO]: Waiting for pending navigations...
+[1.753][INFO]: Done waiting for pending navigations. Status: ok
+[7.858][INFO]: Waiting for pending navigations...
+[21.935][INFO]: Done waiting for pending navigations. Status: ok
+[21.935][INFO]: RESPONSE Navigate
+[26.977][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[26.978][INFO]: Waiting for pending navigations...
+[47.164][INFO]: Done waiting for pending navigations. Status: ok
+[47.179][INFO]: Waiting for pending navigations...
+[47.180][INFO]: Done waiting for pending navigations. Status: ok
+[47.180][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9805710599345057-1"
+}
+[47.186][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9805710599345057-1"
+}
+[47.186][INFO]: Waiting for pending navigations...
+[47.187][INFO]: Done waiting for pending navigations. Status: ok
+[47.204][INFO]: Waiting for pending navigations...
+[47.204][INFO]: Done waiting for pending navigations. Status: ok
+[47.204][INFO]: RESPONSE IsElementDisplayed false
+[47.711][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[47.711][INFO]: Waiting for pending navigations...
+[47.714][INFO]: Done waiting for pending navigations. Status: ok
+[47.735][INFO]: Waiting for pending navigations...
+[47.737][INFO]: Done waiting for pending navigations. Status: ok
+[47.737][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9805710599345057-1"
+}
+[47.745][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9805710599345057-1"
+}
+[47.745][INFO]: Waiting for pending navigations...
+[47.747][INFO]: Done waiting for pending navigations. Status: ok
+[47.791][INFO]: Waiting for pending navigations...
+[47.792][INFO]: Done waiting for pending navigations. Status: ok
+[47.792][INFO]: RESPONSE IsElementDisplayed false
+[48.294][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.294][INFO]: Waiting for pending navigations...
+[48.294][INFO]: Done waiting for pending navigations. Status: ok
+[48.300][INFO]: Waiting for pending navigations...
+[48.300][INFO]: Done waiting for pending navigations. Status: ok
+[48.300][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9805710599345057-1"
+}
+[48.302][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9805710599345057-1"
+}
+[48.302][INFO]: Waiting for pending navigations...
+[48.303][INFO]: Done waiting for pending navigations. Status: ok
+[48.307][INFO]: Waiting for pending navigations...
+[48.308][INFO]: Done waiting for pending navigations. Status: ok
+[48.308][INFO]: RESPONSE IsElementDisplayed false
+[48.814][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[48.814][INFO]: Waiting for pending navigations...
+[65.087][INFO]: Done waiting for pending navigations. Status: ok
+[65.103][INFO]: Waiting for pending navigations...
+[65.106][INFO]: Done waiting for pending navigations. Status: ok
+[65.106][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.11250006991981598-1"
+}
+[65.109][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.11250006991981598-1"
+}
+[65.109][INFO]: Waiting for pending navigations...
+[65.110][INFO]: Done waiting for pending navigations. Status: ok
+[65.131][INFO]: Waiting for pending navigations...
+[65.131][INFO]: Done waiting for pending navigations. Status: ok
+[65.131][INFO]: RESPONSE IsElementDisplayed true
+[65.134][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ul[@class=\"wrapper-sub-menu-my-account\"]/li"
+}
+[65.134][INFO]: Waiting for pending navigations...
+[65.134][INFO]: Done waiting for pending navigations. Status: ok
+[65.141][INFO]: Waiting for pending navigations...
+[65.142][INFO]: Done waiting for pending navigations. Status: ok
+[65.142][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.11250006991981598-1"
+}
+[65.146][INFO]: COMMAND MouseMove {
+   "element": "0.11250006991981598-1"
+}
+[65.146][INFO]: Waiting for pending navigations...
+[65.147][INFO]: Done waiting for pending navigations. Status: ok
+[65.163][INFO]: Waiting for pending navigations...
+[65.163][INFO]: Done waiting for pending navigations. Status: ok
+[65.163][INFO]: RESPONSE MouseMove
+[70.173][INFO]: COMMAND FindElement {
+   "using": "link text",
+   "value": "Login"
+}
+[70.174][INFO]: resolved localhost to ["127.0.0.1"]
+[73.173][INFO]: RESPONSE FindElement chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[73.200][INFO]: COMMAND GetUrl {
+
+}
+[73.201][INFO]: resolved localhost to ["127.0.0.1"]
+[76.200][INFO]: RESPONSE GetUrl chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[77.884][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[77.885][INFO]: resolved localhost to ["127.0.0.1"]
+[80.888][INFO]: RESPONSE Navigate chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[83.042][INFO]: COMMAND Navigate {
+   "url": "http://novanetshoes-hmg03.ns2online.com.br/"
+}
+[83.042][INFO]: resolved localhost to ["127.0.0.1"]
+[86.044][INFO]: RESPONSE Navigate chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+[87.211][INFO]: COMMAND Quit {
+
+}
+[87.211][INFO]: RESPONSE Quit
